@@ -8,8 +8,6 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-# Path to guiscrcpy
-export XDG_DESKTOP_DIR="~/.config/guiscrcpy/"
 export EDITOR=nvim
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
@@ -170,21 +168,6 @@ alias autoremove="sudo pacman -Rns"
 
 # ------------ Pacman -------------------------
 
-# ----------------------- Predator alias -----------------------
-
-alias RE-Pur="red-purple.sh"
-alias totem="totem.sh"
-alias garuda="garuda.sh"
-alias wave="wave.sh"
-alias red="red.sh"
-alias purple="purple.sh"
-alias neon="neon.sh"
-alias predator="predator.sh"
-alias Redshift="Redshift.sh"
-# change module dir #
-alias updatePredator="cd ~/Public/Acer/acer-predator-turbo-and-rgb-keyboard-linux-module && git pull && sudo ./install_service.sh"
-
-# ----------------------- Predator alias -----------------------
 
 alias eDEX="cd ~/Public/packages && ./eDEX-UI-Linux-x86_64.AppImage"
 
