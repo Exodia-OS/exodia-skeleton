@@ -1,0 +1,49 @@
+sw_volume: 50
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: pause
+current: 13
+time: 0.672000
+random: 0
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:N3WPORT - Power .mp3
+1:Alexandra Stan - Mr Saxo Beat.mp3
+2:Dua Lipa - Don't Start Now .mp3
+3:Empire Of The Sun - Alive.mp3
+4:Euro 2016 Montage - Magic In The Air.mp3
+5:Eye of the Tiger - Theme from Rocky 3.mp3
+6:Gloria Gaynor - I Will Survive.mp3
+7:Hans Zimmer - S.T.A.Y.mp3
+8:Imagine Dragons - Believer .mp3
+9:INNA  Yalla.mp3
+10:INNA x Sean Paul - Up.mp3
+11:JeffreyBezos.mp3
+12:John Newman - Love Me Again.mp3
+13:Love Tonight.mp3
+14:M.I.A. - Paper Planes.mp3
+15:Madonna - La Isla Bonita.mp3
+16:Major Lazer - Watch Out For This.mp3
+17:Maneskin_Beggin.mp3
+18:Marie Wegener - Countdown.mp3
+19:Mark Marku - Da si htjela .mp3
+20:Masked Wolf  - Astronaut in the Ocean .mp3
+21:MGK - Invincible .mp3
+22:Nathalie Cardone  Hasta siempre.mp3
+23:Olivia Addams - I'm Lost.mp3
+24:Olympic ayres magic .mp3
+25:Phosphorescent - Song for Zula .mp3
+26:Post Malone - rockstar.mp3
+27:Shakira - Rabiosa.mp3
+28:Stern des Sudens _ FC Bayern.mp3
+29:The Final Countdown - Europe.mp3
+30:YouAreMyLove_My Life.mp3
+31:NEFFEX - Grateful .mp3
+32:Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
+33:Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
+playlist_end
