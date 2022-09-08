@@ -13,9 +13,9 @@ groups=("exodia-os-skeleton")
 
 prepare() {
 
-	cp -af ../misc/. ${srcdir}
-	cp -af ../config/. ${srcdir}
-	cp -af ../cache/. ${srcdir}
+	cp -af ../misc   ${srcdir}
+	cp -af ../config ${srcdir}
+	cp -af ../cache  ${srcdir}
 
 }
 
