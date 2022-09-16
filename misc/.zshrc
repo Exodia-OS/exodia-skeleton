@@ -171,11 +171,10 @@ alias autoremove="sudo pacman -Rns"
 
 # ------------ Pacman -------------------------
 
-
-alias eDEX="cd ~/Public/packages && ./eDEX-UI-Linux-x86_64.AppImage"
-
 alias M="ncmpcpp"
 alias MA="cd ~/.ncmpcpp/scripts/ && ./ncmpcpp-art"
+alias youtube="ytfzf -t"
+
 
 echo "
  ██████╗██╗   ██╗██████╗ ██████╗ ██████╗ ████████╗██╗  ██╗ ██╗███████╗██╗   ██╗███████╗███████╗
