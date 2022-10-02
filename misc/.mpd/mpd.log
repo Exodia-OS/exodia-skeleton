@@ -2299,3 +2299,389 @@ Sep 17 06:22 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
 Sep 17 06:22 : player: played "Gloria Gaynor - I Will Survive.mp3"
 Sep 17 22:56 : update: added /Shakira & Rihanna - Can't Remember to Forget You.mp3
 Sep 17 22:57 : update: updating /Shakira & Rihanna - Can't Remember to Forget You.mp3
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 25 05:59 : player: played "Dua Lipa - Don't Start Now .mp3"
+Sep 25 06:02 : player: played "Dua Lipa - Don't Start Now .mp3"
+Sep 25 13:05 : player: played "Dua Lipa - Don't Start Now .mp3"
+Sep 25 18:12 : player: played "Dua Lipa - Don't Start Now .mp3"
+Sep 25 18:48 : player: played "Dua Lipa - Don't Start Now .mp3"
+Sep 26 04:34 : player: played "Dua Lipa - Don't Start Now .mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Sep 28 01:49 : player: played "Dua Lipa - Don't Start Now .mp3"
+Sep 28 01:52 : player: played "Empire Of The Sun - Alive.mp3"
+Sep 28 05:50 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Sep 28 23:02 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Sep 28 23:05 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Sep 28 23:10 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Sep 28 23:15 : player: played "JeffreyBezos.mp3"
+Sep 29 01:12 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 04:52 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 04:55 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 05:02 : player: played "Maneskin_Beggin.mp3"
+Sep 29 05:05 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 05:09 : player: played "Mark Marku - Da si htjela .mp3"
+Sep 29 05:15 : player: played "Maneskin_Beggin.mp3"
+Sep 29 05:18 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 05:24 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 05:25 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 05:42 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 05:44 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 05:47 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 06:25 : player: played "Marie Wegener - Countdown.mp3"
+Sep 29 20:08 : player: played "Marie Wegener - Countdown.mp3"
+Sep 30 03:32 : player: played "Marie Wegener - Countdown.mp3"
+Sep 30 23:24 : player: played "Marie Wegener - Countdown.mp3"
+Oct 01 01:48 : player: played "Marie Wegener - Countdown.mp3"
+Oct 01 02:07 : player: played "Phosphorescent - Song for Zula .mp3"
+Oct 01 02:10 : player: played "Post Malone - rockstar.mp3"
+Oct 01 03:41 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+WARNING: Unhandled message: interface=org.freedesktop.DBus, path=/org/freedesktop/DBus, member=ActivatableServicesChanged
+Oct 01 07:31 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Oct 01 23:03 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:46 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Oct 02 02:46 : exception: Failed to decode /home/ozil/Music/N3WPORT - Power .mp3; Failed to open '/home/ozil/Music/N3WPORT - Power .mp3': No such file or directory
+Oct 02 02:46 : player: played "N3WPORT - Power .mp3"
+Oct 02 02:46 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:59 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 02:59 : exception: Failed to access /home/ozil/Music: No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Dua Lipa - Don't Start Now .mp3; Failed to open '/home/ozil/Music/Dua Lipa - Don't Start Now .mp3': No such file or directory
+Oct 02 03:11 : player: played "Dua Lipa - Don't Start Now .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Empire Of The Sun - Alive.mp3; Failed to open '/home/ozil/Music/Empire Of The Sun - Alive.mp3': No such file or directory
+Oct 02 03:11 : player: played "Empire Of The Sun - Alive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3; Failed to open '/home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3': No such file or directory
+Oct 02 03:11 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Gloria Gaynor - I Will Survive.mp3; Failed to open '/home/ozil/Music/Gloria Gaynor - I Will Survive.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3; Failed to open '/home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3': No such file or directory
+Oct 02 03:11 : player: played "Gloria Gaynor - I Will Survive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3; Failed to open '/home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3': No such file or directory
+Oct 02 03:11 : player: played "Hans Zimmer - S.T.A.Y.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Imagine Dragons - Believer .mp3; Failed to open '/home/ozil/Music/Imagine Dragons - Believer .mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA  Yalla.mp3; Failed to open '/home/ozil/Music/INNA  Yalla.mp3': No such file or directory
+Oct 02 03:11 : player: played "Imagine Dragons - Believer .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA  Yalla.mp3; Failed to open '/home/ozil/Music/INNA  Yalla.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA x Sean Paul - Up.mp3; Failed to open '/home/ozil/Music/INNA x Sean Paul - Up.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA  Yalla.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA x Sean Paul - Up.mp3; Failed to open '/home/ozil/Music/INNA x Sean Paul - Up.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/JeffreyBezos.mp3; Failed to open '/home/ozil/Music/JeffreyBezos.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA x Sean Paul - Up.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/JeffreyBezos.mp3; Failed to open '/home/ozil/Music/JeffreyBezos.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/John Newman - Love Me Again.mp3; Failed to open '/home/ozil/Music/John Newman - Love Me Again.mp3': No such file or directory
+Oct 02 03:11 : player: played "JeffreyBezos.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/John Newman - Love Me Again.mp3; Failed to open '/home/ozil/Music/John Newman - Love Me Again.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Love Tonight.mp3; Failed to open '/home/ozil/Music/Love Tonight.mp3': No such file or directory
+Oct 02 03:11 : player: played "John Newman - Love Me Again.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Love Tonight.mp3; Failed to open '/home/ozil/Music/Love Tonight.mp3': No such file or directory
+Oct 02 03:11 : player: played "Love Tonight.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/M.I.A. - Paper Planes.mp3; Failed to open '/home/ozil/Music/M.I.A. - Paper Planes.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Madonna - La Isla Bonita.mp3; Failed to open '/home/ozil/Music/Madonna - La Isla Bonita.mp3': No such file or directory
+Oct 02 03:11 : player: played "M.I.A. - Paper Planes.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Madonna - La Isla Bonita.mp3; Failed to open '/home/ozil/Music/Madonna - La Isla Bonita.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Major Lazer - Watch Out For This.mp3; Failed to open '/home/ozil/Music/Major Lazer - Watch Out For This.mp3': No such file or directory
+Oct 02 03:11 : player: played "Madonna - La Isla Bonita.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Major Lazer - Watch Out For This.mp3; Failed to open '/home/ozil/Music/Major Lazer - Watch Out For This.mp3': No such file or directory
+Oct 02 03:11 : player: played "Major Lazer - Watch Out For This.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Maneskin_Beggin.mp3; Failed to open '/home/ozil/Music/Maneskin_Beggin.mp3': No such file or directory
+Oct 02 03:11 : player: played "Maneskin_Beggin.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Marie Wegener - Countdown.mp3; Failed to open '/home/ozil/Music/Marie Wegener - Countdown.mp3': No such file or directory
+Oct 02 03:11 : player: played "Marie Wegener - Countdown.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Mark Marku - Da si htjela .mp3; Failed to open '/home/ozil/Music/Mark Marku - Da si htjela .mp3': No such file or directory
+Oct 02 03:11 : player: played "Mark Marku - Da si htjela .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3; Failed to open '/home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3': No such file or directory
+Oct 02 03:11 : player: played "Masked Wolf  - Astronaut in the Ocean .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/MGK - Invincible .mp3; Failed to open '/home/ozil/Music/MGK - Invincible .mp3': No such file or directory
+Oct 02 03:11 : player: played "MGK - Invincible .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3; Failed to open '/home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3': No such file or directory
+Oct 02 03:11 : player: played "Nathalie Cardone  Hasta siempre.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olivia Addams - I'm Lost.mp3; Failed to open '/home/ozil/Music/Olivia Addams - I'm Lost.mp3': No such file or directory
+Oct 02 03:11 : player: played "Olivia Addams - I'm Lost.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olympic ayres magic .mp3; Failed to open '/home/ozil/Music/Olympic ayres magic .mp3': No such file or directory
+Oct 02 03:11 : player: played "Olympic ayres magic .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Phosphorescent - Song for Zula .mp3; Failed to open '/home/ozil/Music/Phosphorescent - Song for Zula .mp3': No such file or directory
+Oct 02 03:11 : player: played "Phosphorescent - Song for Zula .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Post Malone - rockstar.mp3; Failed to open '/home/ozil/Music/Post Malone - rockstar.mp3': No such file or directory
+Oct 02 03:11 : player: played "Post Malone - rockstar.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira - Rabiosa.mp3; Failed to open '/home/ozil/Music/Shakira - Rabiosa.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira - Rabiosa.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3; Failed to open '/home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira & Rihanna - Can't Remember to Forget You.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Stern des Sudens _ FC Bayern.mp3; Failed to open '/home/ozil/Music/Stern des Sudens _ FC Bayern.mp3': No such file or directory
+Oct 02 03:11 : player: played "Stern des Sudens _ FC Bayern.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/The Final Countdown - Europe.mp3; Failed to open '/home/ozil/Music/The Final Countdown - Europe.mp3': No such file or directory
+Oct 02 03:11 : player: played "The Final Countdown - Europe.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/YouAreMyLove_My Life.mp3; Failed to open '/home/ozil/Music/YouAreMyLove_My Life.mp3': No such file or directory
+Oct 02 03:11 : player: played "YouAreMyLove_My Life.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/NEFFEX - Grateful .mp3; Failed to open '/home/ozil/Music/NEFFEX - Grateful .mp3': No such file or directory
+Oct 02 03:11 : player: played "NEFFEX - Grateful .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3; Failed to open '/home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3; Failed to open '/home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3; Failed to open '/home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/N3WPORT - Power .mp3; Failed to open '/home/ozil/Music/N3WPORT - Power .mp3': No such file or directory
+Oct 02 03:11 : player: played "N3WPORT - Power .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3; Failed to open '/home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3': No such file or directory
+Oct 02 03:11 : player: played "Alexandra Stan - Mr Saxo Beat.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Dua Lipa - Don't Start Now .mp3; Failed to open '/home/ozil/Music/Dua Lipa - Don't Start Now .mp3': No such file or directory
+Oct 02 03:11 : player: played "Dua Lipa - Don't Start Now .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Empire Of The Sun - Alive.mp3; Failed to open '/home/ozil/Music/Empire Of The Sun - Alive.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : player: played "Empire Of The Sun - Alive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3; Failed to open '/home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3': No such file or directory
+Oct 02 03:11 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3; Failed to open '/home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3': No such file or directory
+Oct 02 03:11 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Gloria Gaynor - I Will Survive.mp3; Failed to open '/home/ozil/Music/Gloria Gaynor - I Will Survive.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3; Failed to open '/home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3': No such file or directory
+Oct 02 03:11 : player: played "Gloria Gaynor - I Will Survive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3; Failed to open '/home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3': No such file or directory
+Oct 02 03:11 : player: played "Hans Zimmer - S.T.A.Y.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Imagine Dragons - Believer .mp3; Failed to open '/home/ozil/Music/Imagine Dragons - Believer .mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA  Yalla.mp3; Failed to open '/home/ozil/Music/INNA  Yalla.mp3': No such file or directory
+Oct 02 03:11 : player: played "Imagine Dragons - Believer .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA  Yalla.mp3; Failed to open '/home/ozil/Music/INNA  Yalla.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA  Yalla.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA x Sean Paul - Up.mp3; Failed to open '/home/ozil/Music/INNA x Sean Paul - Up.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA x Sean Paul - Up.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/JeffreyBezos.mp3; Failed to open '/home/ozil/Music/JeffreyBezos.mp3': No such file or directory
+Oct 02 03:11 : player: played "JeffreyBezos.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/John Newman - Love Me Again.mp3; Failed to open '/home/ozil/Music/John Newman - Love Me Again.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Love Tonight.mp3; Failed to open '/home/ozil/Music/Love Tonight.mp3': No such file or directory
+Oct 02 03:11 : player: played "John Newman - Love Me Again.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Love Tonight.mp3; Failed to open '/home/ozil/Music/Love Tonight.mp3': No such file or directory
+Oct 02 03:11 : player: played "Love Tonight.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/M.I.A. - Paper Planes.mp3; Failed to open '/home/ozil/Music/M.I.A. - Paper Planes.mp3': No such file or directory
+Oct 02 03:11 : player: played "M.I.A. - Paper Planes.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Madonna - La Isla Bonita.mp3; Failed to open '/home/ozil/Music/Madonna - La Isla Bonita.mp3': No such file or directory
+Oct 02 03:11 : player: played "Madonna - La Isla Bonita.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Major Lazer - Watch Out For This.mp3; Failed to open '/home/ozil/Music/Major Lazer - Watch Out For This.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Maneskin_Beggin.mp3; Failed to open '/home/ozil/Music/Maneskin_Beggin.mp3': No such file or directory
+Oct 02 03:11 : player: played "Major Lazer - Watch Out For This.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Maneskin_Beggin.mp3; Failed to open '/home/ozil/Music/Maneskin_Beggin.mp3': No such file or directory
+Oct 02 03:11 : player: played "Maneskin_Beggin.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Marie Wegener - Countdown.mp3; Failed to open '/home/ozil/Music/Marie Wegener - Countdown.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Mark Marku - Da si htjela .mp3; Failed to open '/home/ozil/Music/Mark Marku - Da si htjela .mp3': No such file or directory
+Oct 02 03:11 : player: played "Marie Wegener - Countdown.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Mark Marku - Da si htjela .mp3; Failed to open '/home/ozil/Music/Mark Marku - Da si htjela .mp3': No such file or directory
+Oct 02 03:11 : player: played "Mark Marku - Da si htjela .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3; Failed to open '/home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/MGK - Invincible .mp3; Failed to open '/home/ozil/Music/MGK - Invincible .mp3': No such file or directory
+Oct 02 03:11 : player: played "Masked Wolf  - Astronaut in the Ocean .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/MGK - Invincible .mp3; Failed to open '/home/ozil/Music/MGK - Invincible .mp3': No such file or directory
+Oct 02 03:11 : player: played "MGK - Invincible .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3; Failed to open '/home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3': No such file or directory
+Oct 02 03:11 : player: played "Nathalie Cardone  Hasta siempre.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olivia Addams - I'm Lost.mp3; Failed to open '/home/ozil/Music/Olivia Addams - I'm Lost.mp3': No such file or directory
+Oct 02 03:11 : player: played "Olivia Addams - I'm Lost.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olympic ayres magic .mp3; Failed to open '/home/ozil/Music/Olympic ayres magic .mp3': No such file or directory
+Oct 02 03:11 : player: played "Olympic ayres magic .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Phosphorescent - Song for Zula .mp3; Failed to open '/home/ozil/Music/Phosphorescent - Song for Zula .mp3': No such file or directory
+Oct 02 03:11 : player: played "Phosphorescent - Song for Zula .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Post Malone - rockstar.mp3; Failed to open '/home/ozil/Music/Post Malone - rockstar.mp3': No such file or directory
+Oct 02 03:11 : player: played "Post Malone - rockstar.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira - Rabiosa.mp3; Failed to open '/home/ozil/Music/Shakira - Rabiosa.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira - Rabiosa.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3; Failed to open '/home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira & Rihanna - Can't Remember to Forget You.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Stern des Sudens _ FC Bayern.mp3; Failed to open '/home/ozil/Music/Stern des Sudens _ FC Bayern.mp3': No such file or directory
+Oct 02 03:11 : player: played "Stern des Sudens _ FC Bayern.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/The Final Countdown - Europe.mp3; Failed to open '/home/ozil/Music/The Final Countdown - Europe.mp3': No such file or directory
+Oct 02 03:11 : player: played "The Final Countdown - Europe.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/YouAreMyLove_My Life.mp3; Failed to open '/home/ozil/Music/YouAreMyLove_My Life.mp3': No such file or directory
+Oct 02 03:11 : player: played "YouAreMyLove_My Life.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/NEFFEX - Grateful .mp3; Failed to open '/home/ozil/Music/NEFFEX - Grateful .mp3': No such file or directory
+Oct 02 03:11 : player: played "NEFFEX - Grateful .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3; Failed to open '/home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3; Failed to open '/home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3; Failed to open '/home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/N3WPORT - Power .mp3; Failed to open '/home/ozil/Music/N3WPORT - Power .mp3': No such file or directory
+Oct 02 03:11 : player: played "N3WPORT - Power .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3; Failed to open '/home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3': No such file or directory
+Oct 02 03:11 : player: played "Alexandra Stan - Mr Saxo Beat.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Dua Lipa - Don't Start Now .mp3; Failed to open '/home/ozil/Music/Dua Lipa - Don't Start Now .mp3': No such file or directory
+Oct 02 03:11 : player: played "Dua Lipa - Don't Start Now .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Empire Of The Sun - Alive.mp3; Failed to open '/home/ozil/Music/Empire Of The Sun - Alive.mp3': No such file or directory
+Oct 02 03:11 : player: played "Empire Of The Sun - Alive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Empire Of The Sun - Alive.mp3; Failed to open '/home/ozil/Music/Empire Of The Sun - Alive.mp3': No such file or directory
+Oct 02 03:11 : player: played "Empire Of The Sun - Alive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3; Failed to open '/home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3': No such file or directory
+Oct 02 03:11 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Gloria Gaynor - I Will Survive.mp3; Failed to open '/home/ozil/Music/Gloria Gaynor - I Will Survive.mp3': No such file or directory
+Oct 02 03:11 : player: played "Gloria Gaynor - I Will Survive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3; Failed to open '/home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3': No such file or directory
+Oct 02 03:11 : player: played "Hans Zimmer - S.T.A.Y.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Imagine Dragons - Believer .mp3; Failed to open '/home/ozil/Music/Imagine Dragons - Believer .mp3': No such file or directory
+Oct 02 03:11 : player: played "Imagine Dragons - Believer .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA  Yalla.mp3; Failed to open '/home/ozil/Music/INNA  Yalla.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA  Yalla.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA x Sean Paul - Up.mp3; Failed to open '/home/ozil/Music/INNA x Sean Paul - Up.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA x Sean Paul - Up.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/JeffreyBezos.mp3; Failed to open '/home/ozil/Music/JeffreyBezos.mp3': No such file or directory
+Oct 02 03:11 : player: played "JeffreyBezos.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/John Newman - Love Me Again.mp3; Failed to open '/home/ozil/Music/John Newman - Love Me Again.mp3': No such file or directory
+Oct 02 03:11 : player: played "John Newman - Love Me Again.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Love Tonight.mp3; Failed to open '/home/ozil/Music/Love Tonight.mp3': No such file or directory
+Oct 02 03:11 : player: played "Love Tonight.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/M.I.A. - Paper Planes.mp3; Failed to open '/home/ozil/Music/M.I.A. - Paper Planes.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Madonna - La Isla Bonita.mp3; Failed to open '/home/ozil/Music/Madonna - La Isla Bonita.mp3': No such file or directory
+Oct 02 03:11 : player: played "M.I.A. - Paper Planes.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Madonna - La Isla Bonita.mp3; Failed to open '/home/ozil/Music/Madonna - La Isla Bonita.mp3': No such file or directory
+Oct 02 03:11 : player: played "Madonna - La Isla Bonita.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Major Lazer - Watch Out For This.mp3; Failed to open '/home/ozil/Music/Major Lazer - Watch Out For This.mp3': No such file or directory
+Oct 02 03:11 : player: played "Major Lazer - Watch Out For This.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Maneskin_Beggin.mp3; Failed to open '/home/ozil/Music/Maneskin_Beggin.mp3': No such file or directory
+Oct 02 03:11 : player: played "Maneskin_Beggin.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Marie Wegener - Countdown.mp3; Failed to open '/home/ozil/Music/Marie Wegener - Countdown.mp3': No such file or directory
+Oct 02 03:11 : player: played "Marie Wegener - Countdown.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Mark Marku - Da si htjela .mp3; Failed to open '/home/ozil/Music/Mark Marku - Da si htjela .mp3': No such file or directory
+Oct 02 03:11 : player: played "Mark Marku - Da si htjela .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3; Failed to open '/home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3': No such file or directory
+Oct 02 03:11 : player: played "Masked Wolf  - Astronaut in the Ocean .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/MGK - Invincible .mp3; Failed to open '/home/ozil/Music/MGK - Invincible .mp3': No such file or directory
+Oct 02 03:11 : player: played "MGK - Invincible .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3; Failed to open '/home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3': No such file or directory
+Oct 02 03:11 : player: played "Nathalie Cardone  Hasta siempre.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olivia Addams - I'm Lost.mp3; Failed to open '/home/ozil/Music/Olivia Addams - I'm Lost.mp3': No such file or directory
+Oct 02 03:11 : player: played "Olivia Addams - I'm Lost.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olympic ayres magic .mp3; Failed to open '/home/ozil/Music/Olympic ayres magic .mp3': No such file or directory
+Oct 02 03:11 : player: played "Olympic ayres magic .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Phosphorescent - Song for Zula .mp3; Failed to open '/home/ozil/Music/Phosphorescent - Song for Zula .mp3': No such file or directory
+Oct 02 03:11 : player: played "Phosphorescent - Song for Zula .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Post Malone - rockstar.mp3; Failed to open '/home/ozil/Music/Post Malone - rockstar.mp3': No such file or directory
+Oct 02 03:11 : player: played "Post Malone - rockstar.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira - Rabiosa.mp3; Failed to open '/home/ozil/Music/Shakira - Rabiosa.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira - Rabiosa.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3; Failed to open '/home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira & Rihanna - Can't Remember to Forget You.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Stern des Sudens _ FC Bayern.mp3; Failed to open '/home/ozil/Music/Stern des Sudens _ FC Bayern.mp3': No such file or directory
+Oct 02 03:11 : player: played "Stern des Sudens _ FC Bayern.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/The Final Countdown - Europe.mp3; Failed to open '/home/ozil/Music/The Final Countdown - Europe.mp3': No such file or directory
+Oct 02 03:11 : player: played "The Final Countdown - Europe.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/YouAreMyLove_My Life.mp3; Failed to open '/home/ozil/Music/YouAreMyLove_My Life.mp3': No such file or directory
+Oct 02 03:11 : player: played "YouAreMyLove_My Life.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/NEFFEX - Grateful .mp3; Failed to open '/home/ozil/Music/NEFFEX - Grateful .mp3': No such file or directory
+Oct 02 03:11 : player: played "NEFFEX - Grateful .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3; Failed to open '/home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3; Failed to open '/home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3; Failed to open '/home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/N3WPORT - Power .mp3; Failed to open '/home/ozil/Music/N3WPORT - Power .mp3': No such file or directory
+Oct 02 03:11 : player: played "N3WPORT - Power .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3; Failed to open '/home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3': No such file or directory
+Oct 02 03:11 : player: played "Alexandra Stan - Mr Saxo Beat.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Dua Lipa - Don't Start Now .mp3; Failed to open '/home/ozil/Music/Dua Lipa - Don't Start Now .mp3': No such file or directory
+Oct 02 03:11 : player: played "Dua Lipa - Don't Start Now .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Empire Of The Sun - Alive.mp3; Failed to open '/home/ozil/Music/Empire Of The Sun - Alive.mp3': No such file or directory
+Oct 02 03:11 : player: played "Empire Of The Sun - Alive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3; Failed to open '/home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3': No such file or directory
+Oct 02 03:11 : player: played "Eye of the Tiger - Theme from Rocky 3.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Gloria Gaynor - I Will Survive.mp3; Failed to open '/home/ozil/Music/Gloria Gaynor - I Will Survive.mp3': No such file or directory
+Oct 02 03:11 : player: played "Gloria Gaynor - I Will Survive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3; Failed to open '/home/ozil/Music/Hans Zimmer - S.T.A.Y.mp3': No such file or directory
+Oct 02 03:11 : player: played "Hans Zimmer - S.T.A.Y.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Imagine Dragons - Believer .mp3; Failed to open '/home/ozil/Music/Imagine Dragons - Believer .mp3': No such file or directory
+Oct 02 03:11 : player: played "Imagine Dragons - Believer .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA  Yalla.mp3; Failed to open '/home/ozil/Music/INNA  Yalla.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA x Sean Paul - Up.mp3; Failed to open '/home/ozil/Music/INNA x Sean Paul - Up.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA  Yalla.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/INNA x Sean Paul - Up.mp3; Failed to open '/home/ozil/Music/INNA x Sean Paul - Up.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/JeffreyBezos.mp3; Failed to open '/home/ozil/Music/JeffreyBezos.mp3': No such file or directory
+Oct 02 03:11 : player: played "INNA x Sean Paul - Up.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/JeffreyBezos.mp3; Failed to open '/home/ozil/Music/JeffreyBezos.mp3': No such file or directory
+Oct 02 03:11 : player: played "JeffreyBezos.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/John Newman - Love Me Again.mp3; Failed to open '/home/ozil/Music/John Newman - Love Me Again.mp3': No such file or directory
+Oct 02 03:11 : player: played "John Newman - Love Me Again.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Love Tonight.mp3; Failed to open '/home/ozil/Music/Love Tonight.mp3': No such file or directory
+Oct 02 03:11 : player: played "Love Tonight.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/M.I.A. - Paper Planes.mp3; Failed to open '/home/ozil/Music/M.I.A. - Paper Planes.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Madonna - La Isla Bonita.mp3; Failed to open '/home/ozil/Music/Madonna - La Isla Bonita.mp3': No such file or directory
+Oct 02 03:11 : player: played "M.I.A. - Paper Planes.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Madonna - La Isla Bonita.mp3; Failed to open '/home/ozil/Music/Madonna - La Isla Bonita.mp3': No such file or directory
+Oct 02 03:11 : player: played "Madonna - La Isla Bonita.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Major Lazer - Watch Out For This.mp3; Failed to open '/home/ozil/Music/Major Lazer - Watch Out For This.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Maneskin_Beggin.mp3; Failed to open '/home/ozil/Music/Maneskin_Beggin.mp3': No such file or directory
+Oct 02 03:11 : player: played "Major Lazer - Watch Out For This.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Maneskin_Beggin.mp3; Failed to open '/home/ozil/Music/Maneskin_Beggin.mp3': No such file or directory
+Oct 02 03:11 : player: played "Maneskin_Beggin.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Marie Wegener - Countdown.mp3; Failed to open '/home/ozil/Music/Marie Wegener - Countdown.mp3': No such file or directory
+Oct 02 03:11 : player: played "Marie Wegener - Countdown.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Mark Marku - Da si htjela .mp3; Failed to open '/home/ozil/Music/Mark Marku - Da si htjela .mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3; Failed to open '/home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3': No such file or directory
+Oct 02 03:11 : player: played "Mark Marku - Da si htjela .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3; Failed to open '/home/ozil/Music/Masked Wolf  - Astronaut in the Ocean .mp3': No such file or directory
+Oct 02 03:11 : player: played "Masked Wolf  - Astronaut in the Ocean .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/MGK - Invincible .mp3; Failed to open '/home/ozil/Music/MGK - Invincible .mp3': No such file or directory
+Oct 02 03:11 : player: played "MGK - Invincible .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3; Failed to open '/home/ozil/Music/Nathalie Cardone  Hasta siempre.mp3': No such file or directory
+Oct 02 03:11 : player: played "Nathalie Cardone  Hasta siempre.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olivia Addams - I'm Lost.mp3; Failed to open '/home/ozil/Music/Olivia Addams - I'm Lost.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olympic ayres magic .mp3; Failed to open '/home/ozil/Music/Olympic ayres magic .mp3': No such file or directory
+Oct 02 03:11 : player: played "Olivia Addams - I'm Lost.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Olympic ayres magic .mp3; Failed to open '/home/ozil/Music/Olympic ayres magic .mp3': No such file or directory
+Oct 02 03:11 : player: played "Olympic ayres magic .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Phosphorescent - Song for Zula .mp3; Failed to open '/home/ozil/Music/Phosphorescent - Song for Zula .mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Post Malone - rockstar.mp3; Failed to open '/home/ozil/Music/Post Malone - rockstar.mp3': No such file or directory
+Oct 02 03:11 : player: played "Phosphorescent - Song for Zula .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Post Malone - rockstar.mp3; Failed to open '/home/ozil/Music/Post Malone - rockstar.mp3': No such file or directory
+Oct 02 03:11 : player: played "Post Malone - rockstar.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira - Rabiosa.mp3; Failed to open '/home/ozil/Music/Shakira - Rabiosa.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira - Rabiosa.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3; Failed to open '/home/ozil/Music/Shakira & Rihanna - Can't Remember to Forget You.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Stern des Sudens _ FC Bayern.mp3; Failed to open '/home/ozil/Music/Stern des Sudens _ FC Bayern.mp3': No such file or directory
+Oct 02 03:11 : player: played "Shakira & Rihanna - Can't Remember to Forget You.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Stern des Sudens _ FC Bayern.mp3; Failed to open '/home/ozil/Music/Stern des Sudens _ FC Bayern.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/The Final Countdown - Europe.mp3; Failed to open '/home/ozil/Music/The Final Countdown - Europe.mp3': No such file or directory
+Oct 02 03:11 : player: played "Stern des Sudens _ FC Bayern.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/The Final Countdown - Europe.mp3; Failed to open '/home/ozil/Music/The Final Countdown - Europe.mp3': No such file or directory
+Oct 02 03:11 : player: played "The Final Countdown - Europe.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/YouAreMyLove_My Life.mp3; Failed to open '/home/ozil/Music/YouAreMyLove_My Life.mp3': No such file or directory
+Oct 02 03:11 : player: played "YouAreMyLove_My Life.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/NEFFEX - Grateful .mp3; Failed to open '/home/ozil/Music/NEFFEX - Grateful .mp3': No such file or directory
+Oct 02 03:11 : player: played "NEFFEX - Grateful .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3; Failed to open '/home/ozil/Music/Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3; Failed to open '/home/ozil/Music/Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3; Failed to open '/home/ozil/Music/Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3': No such file or directory
+Oct 02 03:11 : player: played "Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/N3WPORT - Power .mp3; Failed to open '/home/ozil/Music/N3WPORT - Power .mp3': No such file or directory
+Oct 02 03:11 : player: played "N3WPORT - Power .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3; Failed to open '/home/ozil/Music/Alexandra Stan - Mr Saxo Beat.mp3': No such file or directory
+Oct 02 03:11 : player: played "Alexandra Stan - Mr Saxo Beat.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Dua Lipa - Don't Start Now .mp3; Failed to open '/home/ozil/Music/Dua Lipa - Don't Start Now .mp3': No such file or directory
+Oct 02 03:11 : player: played "Dua Lipa - Don't Start Now .mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Empire Of The Sun - Alive.mp3; Failed to open '/home/ozil/Music/Empire Of The Sun - Alive.mp3': No such file or directory
+Oct 02 03:11 : player: played "Empire Of The Sun - Alive.mp3"
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3; Failed to open '/home/ozil/Music/Euro 2016 Montage - Magic In The Air.mp3': No such file or directory
+Oct 02 03:11 : exception: Failed to decode /home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3; Failed to open '/home/ozil/Music/Eye of the Tiger - Theme from Rocky 3.mp3': No such file or directory
+Oct 02 03:11 : player: played "Euro 2016 Montage - Magic In The Air.mp3"
+Oct 02 08:10 : player: played "INNA x Sean Paul - Up.mp3"
+Oct 02 08:11 : player: played "JeffreyBezos.mp3"
