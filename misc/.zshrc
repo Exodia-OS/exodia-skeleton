@@ -141,12 +141,13 @@ alias zshconfig="geany ~/.zshrc"
 alias ohmyzsh="thunar ~/.oh-my-zsh"
 
 # ls
-alias l='ls -lh'
-alias ll='ls -lah'
-alias la='ls -A'
-alias lm='ls -m'
-alias lr='ls -R'
-alias lg='ls -l --group-directories-first'
+alias ls='lsd'
+alias l='lsd -lh'
+alias ll='lsd -lah'
+alias la='lsd -A'
+alias lm='lsd -m'
+alias lr='lsd -R'
+alias lg='lsd -l --group-directories-first'
 
 # git
 alias gcl='git clone --depth 1'
