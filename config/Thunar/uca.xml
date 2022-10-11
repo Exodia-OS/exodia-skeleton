@@ -18,7 +18,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
-	<icon>open-terminal</icon>
+	<icon>terminal</icon>
 	<name>Open Terminal Here</name>
 	<unique-id>1581593230771688-1</unique-id>
 	<command>~/.config/bspwm/bin/bspterm -float</command>
