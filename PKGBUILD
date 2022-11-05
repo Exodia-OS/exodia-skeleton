@@ -1,9 +1,9 @@
 #
-# Maintainer: Mahmoud Mohamed (Ozil) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
 #
 
 pkgname=exodia-skeleton
-pkgver=2.2
+pkgver=2.3
 pkgrel=8
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
