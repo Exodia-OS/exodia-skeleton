@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: pause
-current: 42
-time: 41.289000
+state: play
+current: 8
+time: 54.156000
 random: 0
 repeat: 1
 single: 1
@@ -12,47 +12,13 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Alexandra Stan - Mr Saxo Beat.mp3
-1:Dua Lipa - Don't Start Now .mp3
-2:Empire Of The Sun - Alive.mp3
-3:Eye of the Tiger.mp3
-4:Gloria Gaynor - I Will Survive.mp3
-5:Haaland Ha Ha Ha.mp3
-6:Hans Zimmer - S.T.A.Y.mp3
-7:Imagine Dragons - Believer .mp3
-8:INNA  Yalla.mp3
-9:INNA x Sean Paul - Up.mp3
-10:JeffreyBezos.mp3
-11:John Newman - Love Me Again.mp3
-12:Love Tonight.mp3
-13:M.I.A. - Paper Planes.mp3
-14:Madonna - La Isla Bonita.mp3
-15:Magic In The Air.mp3
-16:Major Lazer - Watch Out For This.mp3
-17:Maneskin_Beggin.mp3
-18:Marie Wegener - Countdown.mp3
-19:Mark Marku - Da si htjela .mp3
-20:Masked Wolf  - Astronaut in the Ocean .mp3
-21:MGK - Invincible .mp3
-22:Nathalie Cardone  Hasta siempre.mp3
-23:Olivia Addams - I'm Lost.mp3
-24:Olympic ayres magic .mp3
-25:Phosphorescent - Song for Zula .mp3
-26:Post Malone - rockstar.mp3
-27:Shakira - Rabiosa.mp3
-28:Shakira & Rihanna - Can't Remember to Forget You.mp3
-29:Solo - RiveR  .mp3
-30:Stern des Sudens _ FC Bayern.mp3
-31:The Final Countdown - Europe.mp3
-32:Unstoppable - Sia.mp3
-33:YouAreMyLove_My Life.mp3
-34:NEFFEX - Grateful .mp3
-35:Cartoon - On & On (feat. Daniel Levi) [NCS Release].mp3
-36:Culture Code - Make Me Move (feat. Karra) [NCS Release].mp3
-37:Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
-38:N3WPORT - Power .mp3
-39:Panjabi MC - Mundian To Bach Ke.mp3
-40:Sia - Chandelier.mp3
-41:Sia - Cheap Thrills.mp3
-42:Niko Pandetta- Pistole Nella Fendi.mp3
+0:Eye of the Tiger.mp3
+1:Haaland Ha Ha Ha.mp3
+2:INNA x Sean Paul - Up.mp3
+3:Niko Pandetta- Pistole Nella Fendi.mp3
+4:Solo - RiveR  .mp3
+5:Stern des Sudens _ FC Bayern.mp3
+6:Unstoppable - Sia.mp3
+7:Janji - Heroes Tonight (feat. Johnning) [NCS Release].mp3
+8:Madonna - La Isla Bonita.mp3
 playlist_end
