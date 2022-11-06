@@ -4,7 +4,7 @@
 
 pkgname=exodia-skeleton
 pkgver=2.3
-pkgrel=8
+pkgrel=9
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-skeleton"
