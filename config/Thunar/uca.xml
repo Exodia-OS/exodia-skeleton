@@ -10,7 +10,7 @@
      ╚═════╝   ╚═╝   ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═╝╚══════╝  ╚═══╝  ╚══════╝╚══════╝     
 																										 
 																																																				 
-   Copyright (C) Mahmoud Mohamed (Ozil)  <https://github.com/mmsaeed509>								 
+   Copyright (C) Mahmoud Mohamed (00xWolf)  <https://github.com/mmsaeed509>								 
    LICENSE © GNU-GPL3		
 
  -->
@@ -22,6 +22,16 @@
 	<name>Open Terminal Here</name>
 	<unique-id>1581593230771688-1</unique-id>
 	<command>~/.config/bspwm/bin/bspterm -float</command>
+	<description>Example for a custom action</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>terminal</icon>
+	<name>Open PowerShell Here</name>
+	<unique-id>1581593230771688-1</unique-id>
+	<command>bsp-powershell</command>
 	<description>Example for a custom action</description>
 	<patterns>*</patterns>
 	<startup-notify/>
