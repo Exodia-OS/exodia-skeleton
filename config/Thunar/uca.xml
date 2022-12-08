@@ -1,20 +1,3 @@
-<!-- 
-
-    Copyright © 2022 To Cyb3rTh1eveZ																	 
-																										 
-     ██████╗██╗   ██╗██████╗ ██████╗ ██████╗ ████████╗██╗  ██╗ ██╗███████╗██╗   ██╗███████╗███████╗	 
-    ██╔════╝╚██╗ ██╔╝██╔══██╗╚════██╗██╔══██╗╚══██╔══╝██║  ██║███║██╔════╝██║   ██║██╔════╝╚══███╔╝     
-    ██║      ╚████╔╝ ██████╔╝ █████╔╝██████╔╝   ██║   ███████║╚██║█████╗  ██║   ██║█████╗    ███╔╝      
-    ██║       ╚██╔╝  ██╔══██╗ ╚═══██╗██╔══██╗   ██║   ██╔══██║ ██║██╔══╝  ╚██╗ ██╔╝██╔══╝   ███╔╝       
-    ╚██████╗   ██║   ██████╔╝██████╔╝██║  ██║   ██║   ██║  ██║ ██║███████╗ ╚████╔╝ ███████╗███████╗     
-     ╚═════╝   ╚═╝   ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝ ╚═╝╚══════╝  ╚═══╝  ╚══════╝╚══════╝     
-																										 
-																																																				 
-   Copyright (C) Mahmoud Mohamed (00xWolf)  <https://github.com/mmsaeed509>								 
-   LICENSE © GNU-GPL3		
-
- -->
-
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 <action>
@@ -30,7 +13,7 @@
 <action>
 	<icon>terminal</icon>
 	<name>Open PowerShell Here</name>
-	<unique-id>1581593230771688-1</unique-id>
+	<unique-id>1670541881295391-1</unique-id>
 	<command>bsp-powershell</command>
 	<description>Example for a custom action</description>
 	<patterns>*</patterns>
