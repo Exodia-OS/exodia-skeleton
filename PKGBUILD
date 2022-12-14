@@ -3,12 +3,13 @@
 #
 
 pkgname=exodia-skeleton
-pkgver=3.5
+pkgver=3.6
 pkgrel=6
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-skeleton"
 license=('GPL3')
+depends=('exodia-templates')
 groups=("exodia-os-skeleton")
 
 prepare() {
@@ -40,7 +41,6 @@ package() {
 	cp -r ${srcdir}/misc/.mplayer 		"$skel_dir"
 	cp -r ${srcdir}/misc/.ncmpcpp 		"$skel_dir"
 	cp -r ${srcdir}/misc/.Xresources.d 	"$skel_dir"
-	cp -r ${srcdir}/misc/Templates 		"$skel_dir"
 	
 	install -Dm 644 ${srcdir}/misc/.dmrc 	     "$skel_dir"/.dmrc
 	install -Dm 644 ${srcdir}/misc/.fehbg 		 "$skel_dir"/.fehbg
