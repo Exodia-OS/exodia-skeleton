@@ -44,17 +44,17 @@ BACKUP (){
 	echo -e ${Purple}"\n[*] Creating a backup of current Templates files..." ${Color_Off}
 	BACKUP_NAME=`date +%m-%d`
 	BACKUP_RANDOM="`echo $RANDOM`"
-	mkdir -p ${HOME_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+	mkdir -p ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
 	mv ${HOME_DIR}/${FILES_NAME} ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
 	chown -R ${USER}:${GROUB} ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-	echo -e ${Yellow}"[*] current backup Templates files are stored in : ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM} ." ${Color_Off}
+	echo -e ${Yellow}"[*] current backup Templates files are stored in :${BRed} ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM} ." ${Color_Off}
 
 }
 
 # INSTALL FUNCTION #
 INSTALL (){
 
-	echo -e ${Blue}"\n[*] Copying ${BBlue}${PKG_NAME}${Blue} Templates files into ${BBlue}${HOME_DIR}" ${Color_Off}
+	echo -e ${Blue}"\n[*] Copying ${BBlue}${PKG_NAME}${Blue} Templates files into ${BRed}${HOME_DIR}" ${Color_Off}
 	mkdir -p ${HOME_DIR}
 	cp -rf ${SKEL_DIR}/${FILES_NAME} ${HOME_DIR}
 	chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}
