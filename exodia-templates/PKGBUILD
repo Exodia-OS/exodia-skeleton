@@ -4,14 +4,14 @@
 
 pkgname=exodia-templates
 _pkgname=Templates
-pkgver=1.6
-pkgrel=8
+pkgver=2.0
+pkgrel=1
 pkgdesc="Templates Files For Exodia OS that helps you create coding files"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-skeleton"
 license=('GPL3')
-groups=("exodia-os-skeleton")
 install=${pkgname}.install
+groups=('exodia-skeleton')
 
 prepare() {
 

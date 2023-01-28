@@ -6,7 +6,7 @@
 
 pkgname=exodia-vim
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="The ultimate Vim configuration (vimrc) "
 arch=('any')
 url='https://github.com/amix/vimrc'
@@ -14,8 +14,13 @@ license=('GPL')
 depends=('vim')
 makedepends=('git')
 optdepends=()
-groups=("exodia-os-skeleton" "exodia-text-editors")
 source=("git+https://github.com/amix/vimrc.git")
+groups=(
+	
+	"exodia-skeleton"
+	"exodia-text-editors"
+	
+	)
 
 sha256sums=('SKIP')
 
