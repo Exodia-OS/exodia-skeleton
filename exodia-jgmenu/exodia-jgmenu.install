@@ -51,10 +51,12 @@ BACKUP (){
 # INSTALL FUNCTION #
 INSTALL (){
 
-	echo -e ${Green}"\n[*] Copying ${BPurple}${PKG_NAME}${Green} config files into ${BCyan}${CONFIG_DIR}" ${RESET_COLOR}
+	echo -e ${Green}"\n[*] Installing ${BPurple}${PKG_NAME}${Green} files." ${RESET_COLOR}
+
+	echo -e ${Green}"\n[+] Copying ${BPurple}${PKG_NAME}${Green} config files into ${BCyan}${CONFIG_DIR}" ${RESET_COLOR}
 	echo -e ${BBlue}"   ==> creating config directory." ${RESET_COLOR}
 	mkdir -p ${CONFIG_DIR}
-	echo -e ${BBlue}"   ==> copying old files to the backup directory." ${RESET_COLOR}
+	echo -e ${BBlue}"   ==> copying config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/${FILES_NAME} ${CONFIG_DIR}
 	echo -e ${BBlue}"   ==> Granting permissions to the ${BPurple}${USER} ${BBlue}user." ${RESET_COLOR}
 	chown -R ${USER}:${GROUB} ${CONFIG_DIR}/${FILES_NAME}
@@ -109,6 +111,6 @@ post_upgrade() {
 
 post_remove() {
 	
-	echo -e ${BRed}"\n[*] Config files for ${BPurple}${FILES_NAME}${BRed} are still available in : ${BCyan}${CONFIG_DIR}/${FILES_NAME}${BRed} directory. If you want to remove them, Do it manually.\n" ${RESET_COLOR}
+	echo -e ${BRed}"\n[*] Config files for ${BPurple}${PKG_NAME}${BRed} are still available in : ${BCyan}${CONFIG_DIR}/${FILES_NAME}${BRed} directory. If you want to remove them, Do it manually.\n" ${RESET_COLOR}
 
 }

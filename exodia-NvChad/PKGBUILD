@@ -6,11 +6,12 @@
 
 pkgname=exodia-NvChad
 pkgver=2.0
-pkgrel=2
+pkgrel=3
 pkgdesc="NvChad : the ultimate neovim configuration"
 arch=('any')
 url='https://github.com/NvChad/NvChad'
 license=('GPL')
+install=${pkgname}.install
 depends=(
 
 	'neovim'
@@ -27,12 +28,19 @@ groups=(
 
 )
 
-prepare() {
+source=(
+	
+	'nvim-config.tar.gz' 
+	'nvim-plugins.tar.gz'
 
-	cp -af ../nvim-config ${srcdir}
-	cp -af ../nvim-plugins ${srcdir}
+	)
 
-}
+sha256sums=(
+
+	'SKIP'
+	'SKIP'
+
+)
 
 package() {
 
@@ -40,7 +48,7 @@ package() {
 	PLUGINS_DIR=${pkgdir}/etc/skel/.local/share/nvim
 	mkdir -p ${CONFIG_DIR} ${PLUGINS_DIR}
 
-	cp -rf ${srcdir}/nvim-config/*  ${CONFIG_DIR}
+	cp -rf ${srcdir}/nvim/*  ${CONFIG_DIR}
 	cp -rf ${srcdir}/nvim-plugins/* ${PLUGINS_DIR}
 
 }
