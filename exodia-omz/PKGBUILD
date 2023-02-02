@@ -4,7 +4,7 @@
 
 pkgname=exodia-omz
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="A community-driven framework for managing your zsh configuration."
 arch=('any')
 url='https://github.com/ohmyzsh/ohmyzsh'
@@ -22,6 +22,7 @@ source=("git+https://github.com/robbyrussell/oh-my-zsh.git")
 sha256sums=('SKIP')
 
 groups=('exodia-skeleton')
+install=${pkgname}.install
 
 prepare() {
   	cd ${srcdir}/oh-my-zsh

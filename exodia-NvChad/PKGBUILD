@@ -12,6 +12,7 @@ arch=('any')
 url='https://github.com/NvChad/NvChad'
 license=('GPL')
 install=${pkgname}.install
+
 depends=(
 
 	'neovim'
