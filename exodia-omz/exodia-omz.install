@@ -103,7 +103,7 @@ INSTALL (){
 
 
 	
-	if [[ -d ${HOME_DIR}/${FILES_NAME}/example && -d ${HOME_DIR}/${FILES_NAME}/powerlevel10k && -d ${HOME_DIR}/${FILES_NAME}/spaceship-prompt && -d ${HOME_DIR}/${FILES_NAME}/zsh-autosuggestions && -d ${HOME_DIR}/${FILES_NAME}/zsh-syntax-highlighting ]]; then
+	if [[ -d ${HOME_DIR}/${FILES_NAME}/custom/plugins/example && -d ${HOME_DIR}/${FILES_NAME}/custom/themes/powerlevel10k && -d ${HOME_DIR}/${FILES_NAME}/custom/themes/spaceship-prompt && -d ${HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-autosuggestions && -d ${HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-syntax-highlighting ]]; then
 
 		echo -e ${BGreen}"[✔] Configuration files installed successfully!\n" ${RESET_COLOR}
 
@@ -124,7 +124,7 @@ RUN_MAIN (){
 
 	else
 
-		if [[ ! -d ${HOME_DIR}/${FILES_NAME}/example && ! -d ${HOME_DIR}/${FILES_NAME}/powerlevel10k && ! -d ${HOME_DIR}/${FILES_NAME}/spaceship-prompt && ! -d {HOME_DIR}/${FILES_NAME}/zsh-autosuggestions && ! -d ${HOME_DIR}/${FILES_NAME}/zsh-syntax-highlighting ]]
+		if [[ ! -d ${HOME_DIR}/${FILES_NAME}/custom/plugins/example && ! -d ${HOME_DIR}/${FILES_NAME}/custom/themes/powerlevel10k && ! -d ${HOME_DIR}/${FILES_NAME}/custom/themes/spaceship-prompt && ! -d {HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-autosuggestions && ! -d ${HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-syntax-highlighting ]]
 			then
 				
 				INSTALL
