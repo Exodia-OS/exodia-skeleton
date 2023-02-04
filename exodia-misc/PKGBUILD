@@ -4,7 +4,7 @@
 
 pkgname=exodia-misc
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-skeleton"
@@ -33,6 +33,7 @@ package() {
 	
 	install -Dm 644 ${srcdir}/misc/.dmrc 	     ${skel_dir}/.dmrc
 	install -Dm 644 ${srcdir}/misc/.fehbg 		 ${skel_dir}/.fehbg
+	install -Dm 644 ${srcdir}/misc/.face 		 ${skel_dir}/.face
 	install -Dm 644 ${srcdir}/misc/.gtkrc-2.0 	 ${skel_dir}/.gtkrc-2.0
 	install -Dm 644 ${srcdir}/misc/.hushlogin 	 ${skel_dir}/.hushlogin
 	install -Dm 644 ${srcdir}/misc/.p10k.zsh     ${skel_dir}/.p10k.zsh

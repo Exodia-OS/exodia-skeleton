@@ -53,15 +53,15 @@ BACKUP (){
 	mkdir -p ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
 
 	echo -e ${BBlue}"   ==> moving ${BPurple}example ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/${FILES_NAME}/example ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+	mv ${HOME_DIR}/${FILES_NAME}/custom/plugins/example ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
     echo -e ${BBlue}"   ==> moving ${BPurple}powerlevel10k ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/${FILES_NAME}/powerlevel10k ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+	mv ${HOME_DIR}/${FILES_NAME}/custom/themes/powerlevel10k ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
     echo -e ${BBlue}"   ==> moving ${BPurple}spaceship-prompt ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/${FILES_NAME}/spaceship-prompt ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+	mv ${HOME_DIR}/${FILES_NAME}/custom/themes/spaceship-prompt ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
     echo -e ${BBlue}"   ==> moving ${BPurple}zsh-autosuggestions ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/${FILES_NAME}/zsh-autosuggestions ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+	mv ${HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-autosuggestions ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
     echo -e ${BBlue}"   ==> moving ${BPurple}zsh-syntax-highlighting ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/${FILES_NAME}/zsh-syntax-highlighting ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+	mv ${HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-syntax-highlighting ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
 
 
     echo -e ${BBlue}"   ==> Granting permissions to the ${BPurple}${USER} ${BBlue}user." ${RESET_COLOR}
@@ -84,22 +84,22 @@ INSTALL (){
 	mkdir -p ${HOME_DIR}/${FILES_NAME}
 
 	echo -e ${BBlue}"   ==> copying ${BPurple}example ${BBlue}config files to the ${BPurple}oh-my-zsh ${BBlue}directory." ${RESET_COLOR}
-	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/example ${HOME_DIR}/${FILES_NAME}
+	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/custom/plugins/example ${HOME_DIR}/${FILES_NAME}/custom/plugins
     echo -e ${BBlue}"   ==> copying ${BPurple}powerlevel10k ${BBlue}config files to the ${BPurple}oh-my-zsh ${BBlue}directory." ${RESET_COLOR}
-	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/powerlevel10k ${HOME_DIR}/${FILES_NAME}
+	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/custom/themes/powerlevel10k ${HOME_DIR}/${FILES_NAME}/custom/themes
     echo -e ${BBlue}"   ==> copying ${BPurple}spaceship-prompt ${BBlue}config files to the ${BPurple}oh-my-zsh ${BBlue}directory." ${RESET_COLOR}
-	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/spaceship-prompt ${HOME_DIR}/${FILES_NAME}
+	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/custom/themes/spaceship-prompt ${HOME_DIR}/${FILES_NAME}/custom/themes
     echo -e ${BBlue}"   ==> copying ${BPurple}zsh-autosuggestions ${BBlue}config files to the ${BPurple}oh-my-zsh ${BBlue}directory." ${RESET_COLOR}
-	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/zsh-autosuggestions ${HOME_DIR}/${FILES_NAME}
+	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/custom/plugins/zsh-autosuggestions ${HOME_DIR}/${FILES_NAME}/custom/plugins
     echo -e ${BBlue}"   ==> copying ${BPurple}zsh-syntax-highlighting ${BBlue}config files to the ${BPurple}oh-my-zsh ${BBlue}directory." ${RESET_COLOR}
-	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/zsh-syntax-highlighting ${HOME_DIR}/${FILES_NAME}
+	cp -rf ${HOME_DIR_SKEL}/${FILES_NAME}/custom/plugins/zsh-syntax-highlighting ${HOME_DIR}/${FILES_NAME}/custom/plugins
     
     echo -e ${BBlue}"   ==> Granting permissions to the ${BPurple}${USER} ${BBlue}user." ${RESET_COLOR}
-	chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/example
-    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/powerlevel10k
-    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/spaceship-prompt
-    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/zsh-autosuggestions
-    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/zsh-syntax-highlighting
+	chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/custom/plugins/example
+    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/custom/themes/powerlevel10k
+    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/custom/themes/spaceship-prompt
+    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-autosuggestions
+    chown -R ${USER}:${GROUB} ${HOME_DIR}/${FILES_NAME}/custom/plugins/zsh-syntax-highlighting
 
 
 	
