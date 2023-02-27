@@ -1,0 +1,26 @@
+#
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+#
+
+pkgname=exodia-music
+pkgver=1.0
+pkgrel=4
+pkgdesc="Music For Exodia OS"
+arch=('any')
+url="https://github.com/Exodia-OS/exodia-music"
+license=('GPL3')
+groups=('exodia-skeleton')
+
+prepare() {
+
+	cp -af ../Music/. ${srcdir}
+
+}
+
+package() {
+
+	local music_dir=${pkgdir}/etc/skel/Music
+	mkdir -p ${music_dir}
+	cp -r ${srcdir}/* ${music_dir}
+
+}

@@ -1,0 +1,39 @@
+## Copyright (C) 2020-2021 Aditya Shakya <adi1090x@gmail.com>
+## Everyone is permitted to copy and distribute copies of this file under GNU-GPL3
+
+[Configuration]
+MiscAlwaysShowTabs=FALSE
+MiscBell=FALSE
+MiscBellUrgent=FALSE
+MiscBordersDefault=TRUE
+MiscCursorBlinks=TRUE
+MiscCursorShape=TERMINAL_CURSOR_SHAPE_BLOCK
+MiscDefaultGeometry=82x25
+MiscInheritGeometry=FALSE
+MiscMenubarDefault=FALSE
+MiscMouseAutohide=FALSE
+MiscMouseWheelZoom=TRUE
+MiscToolbarDefault=FALSE
+MiscConfirmClose=TRUE
+MiscCycleTabs=TRUE
+MiscTabCloseButtons=TRUE
+MiscTabCloseMiddleClick=TRUE
+MiscTabPosition=GTK_POS_TOP
+MiscHighlightUrls=TRUE
+MiscMiddleClickOpensUri=FALSE
+MiscCopyOnSelect=FALSE
+MiscShowRelaunchDialog=TRUE
+MiscRewrapOnResize=TRUE
+MiscUseShiftArrowsToScroll=FALSE
+MiscSlimTabs=TRUE
+MiscNewTabAdjacent=FALSE
+MiscSearchDialogOpacity=100
+MiscShowUnsafePasteDialog=TRUE
+ScrollingUnlimited=TRUE
+FontName=JetBrainsMono Nerd Font 10
+ScrollingBar=TERMINAL_SCROLLBAR_NONE
+ColorForeground=#0000dfdfdfdf
+ColorBackground=#010116161b1b
+ColorCursor=#0000dfdfdfdf
+ColorBoldUseDefault=FALSE
+ColorPalette=#101010101010;#00007b7b8282;#02028c8c9494;#03039c9ca4a4;#0404acacb5b5;#0505bbbbc5c5;#0606ccccd7d7;#a3a3b5b5b8b8;#252525252525;#00007b7b8282;#02028c8c9494;#03039c9ca4a4;#0404acacb5b5;#0505bbbbc5c5;#0606ccccd7d7;#a3a3b5b5b8b8
