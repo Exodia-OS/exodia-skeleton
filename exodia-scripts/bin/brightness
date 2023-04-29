@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 
-#
-# reconfigured : Mahmoud Mohamed (00xWolf)  <https://github.com/mmsaeed509>
-#
-
+#####################################
+#                                   #
+#  @author      : 00xWolf           #
+#    GitHub    : @mmsaeed509       #
+#    Developer : Mahmoud Mohamed   #
+#  﫥  Copyright : Exodia OS        #
+#                                   #
+#####################################
 
 # Graphics card
 CARD=`ls /sys/class/backlight | head -n 1`

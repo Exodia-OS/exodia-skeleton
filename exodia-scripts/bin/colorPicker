@@ -1,13 +1,16 @@
 #!/bin/bash
 
-#
-# Copyright (C) 2022 Mahmoud Mohamed (00xWolf)  <https://github.com/mmsaeed509>
-# LICENSE © GNU-GPL3
-#
+#####################################
+#                                   #
+#  @author      : 00xWolf           #
+#    GitHub    : @mmsaeed509       #
+#    Developer : Mahmoud Mohamed   #
+#  﫥  Copyright : Exodia OS        #
+#                                   #
+#####################################
 
 ####################################
 #     script to capture colors     #
-# recommend reading the tips below #
 ####################################
 
 
@@ -25,4 +28,3 @@ convert -size 48x48 xc:"$colorPicker" ${image}
 
 # notify color above screen # 
 dunstify -u low --replace=69 -i ${image} "$colorPicker, copied to clipboard."
-

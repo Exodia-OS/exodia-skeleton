@@ -1,8 +1,13 @@
 #!/bin/bash
 
-#
-# reconfigured : Mahmoud Mohamed (00xWolf)  <https://github.com/mmsaeed509>
-#
+#####################################
+#                                   #
+#  @author      : 00xWolf           #
+#    GitHub    : @mmsaeed509       #
+#    Developer : Mahmoud Mohamed   #
+#  﫥  Copyright : Exodia OS        #
+#                                   #
+#####################################
 
 # Get Volume
 get_volume() {
