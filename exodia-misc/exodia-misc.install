@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## ------------ COLORS ------------ ##
 
 # Reset #
@@ -54,28 +56,34 @@ BACKUP (){
 
 	echo -e ${BBlue}"   ==> moving ${BPurple}.mpd ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.mpd ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.mplayer ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.mplayer ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.ncmpcpp ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.ncmpcpp ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.Xresources.d ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.Xresources.d ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.dmrc ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.dmrc ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.face ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.face ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-    echo -e ${BBlue}"   ==> moving ${BPurple}.fehbg ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/.fehbg ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.gtkrc-2.0 ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.gtkrc-2.0 ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.hushlogin ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.hushlogin ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.p10k.zsh ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.p10k.zsh ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.Xresources ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.Xresources ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-    echo -e ${BBlue}"   ==> moving ${BPurple}.xsettingsd ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/.xsettingsd ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}.zshrc ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.zshrc ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}  
 
@@ -101,28 +109,33 @@ INSTALL (){
 
 	echo -e ${BBlue}"   ==> copying ${BPurple}.mpd ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp -rf ${HOME_DIR_SKEL}/.mpd ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.mplayer ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp -rf ${HOME_DIR_SKEL}/.mplayer ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.ncmpcpp ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp -rf ${HOME_DIR_SKEL}/.ncmpcpp ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.Xresources.d ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp -rf ${HOME_DIR_SKEL}/.Xresources.d ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.dmrc ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.dmrc ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.face ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.face ${HOME_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}.fehbg ${BBlue}config files to the home directory." ${RESET_COLOR}
-	cp ${HOME_DIR_SKEL}/.fehbg ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.gtkrc-2.0 ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.gtkrc-2.0 ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.hushlogin ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.hushlogin ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.p10k.zsh ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.p10k.zsh ${HOME_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}.Xresources ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.Xresources ${HOME_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}.xsettingsd ${BBlue}config files to the home directory." ${RESET_COLOR}
-	cp ${HOME_DIR_SKEL}/.xsettingsd ${HOME_DIR}
 
     echo -e ${BBlue}"   ==> copying ${BPurple}.zshrc ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.zshrc ${HOME_DIR}
@@ -135,12 +148,10 @@ INSTALL (){
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.Xresources.d
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.dmrc
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.face
-    chown -R ${USER}:${GROUB} ${HOME_DIR}/.fehbg
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.gtkrc-2.0
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.hushlogin
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.p10k.zsh
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.Xresources
-    chown -R ${USER}:${GROUB} ${HOME_DIR}/.xsettingsd
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.zshrc
 
 	

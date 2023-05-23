@@ -4,7 +4,7 @@
 
 pkgname=exodia-misc
 pkgver=1.0
-pkgrel=3
+pkgrel=4
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-skeleton"
@@ -20,28 +20,27 @@ prepare() {
 
 package() {
 
-	local skel_dir=${pkgdir}/etc/skel
+	local SKEL_DIR=${pkgdir}/etc/skel
 
-	mkdir -p ${skel_dir}
+	mkdir -p ${SKEL_DIR}
 
 	
-	# Copy misc files
-	cp -r ${srcdir}/misc/.mpd  		    ${skel_dir}
-	cp -r ${srcdir}/misc/.mplayer 		${skel_dir}
-	cp -r ${srcdir}/misc/.ncmpcpp 		${skel_dir}
-	cp -r ${srcdir}/misc/.Xresources.d 	${skel_dir}
+	# Copy misc dirs #
+	cp -r ${srcdir}/misc/.mpd  		    ${SKEL_DIR}
+	cp -r ${srcdir}/misc/.mplayer 		${SKEL_DIR}
+	cp -r ${srcdir}/misc/.ncmpcpp 		${SKEL_DIR}
+	cp -r ${srcdir}/misc/.Xresources.d 	${SKEL_DIR}
 	
-	install -Dm 644 ${srcdir}/misc/.dmrc 	     ${skel_dir}/.dmrc
-	install -Dm 644 ${srcdir}/misc/.face 		 ${skel_dir}/.face
-	install -Dm 644 ${srcdir}/misc/.fehbg 		 ${skel_dir}/.fehbg
-	install -Dm 644 ${srcdir}/misc/.gtkrc-2.0 	 ${skel_dir}/.gtkrc-2.0
-	install -Dm 644 ${srcdir}/misc/.hushlogin 	 ${skel_dir}/.hushlogin
-	install -Dm 644 ${srcdir}/misc/.p10k.zsh     ${skel_dir}/.p10k.zsh
-	install -Dm 644 ${srcdir}/misc/.Xresources   ${skel_dir}/.Xresources
-	install -Dm 644 ${srcdir}/misc/.xsettingsd   ${skel_dir}/.xsettingsd
-	install -Dm 644 ${srcdir}/misc/.zshrc        ${skel_dir}/.zshrc
+	# Copy misc files #
+	install -Dm 644 ${srcdir}/misc/.dmrc 	     ${SKEL_DIR}/.dmrc
+	install -Dm 644 ${srcdir}/misc/.face 		 ${SKEL_DIR}/.face
+	install -Dm 644 ${srcdir}/misc/.gtkrc-2.0 	 ${SKEL_DIR}/.gtkrc-2.0
+	install -Dm 644 ${srcdir}/misc/.hushlogin 	 ${SKEL_DIR}/.hushlogin
+	install -Dm 644 ${srcdir}/misc/.p10k.zsh     ${SKEL_DIR}/.p10k.zsh
+	install -Dm 644 ${srcdir}/misc/.Xresources   ${SKEL_DIR}/.Xresources
+	install -Dm 644 ${srcdir}/misc/.zshrc        ${SKEL_DIR}/.zshrc
 
-	# Make scripts executable
-	chmod +x ${skel_dir}/.ncmpcpp/scripts/{album-art,ncmpcpp-art,notify}
+	# Make scripts executable #
+	chmod +x ${SKEL_DIR}/.ncmpcpp/scripts/{album-art,ncmpcpp-art,notify}
 
 }
