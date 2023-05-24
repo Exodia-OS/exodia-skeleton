@@ -1,3 +1,14 @@
+#!/bin/bash
+
+#####################################
+#                                   #
+#  @author      : 00xWolf           #
+#    GitHub    : @mmsaeed509       #
+#    Developer : Mahmoud Mohamed   #
+#  﫥  Copyright : Exodia OS         #
+#                                   #
+#####################################
+
 ## ------------ COLORS ------------ ##
 
 # Reset #
@@ -54,31 +65,47 @@ BACKUP (){
 
 	echo -e ${BBlue}"   ==> moving ${BPurple}Alacritty ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/alacritty ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}geany ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/geany ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}cava ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/cava ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}gtk-2.0 ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/gtk-2.0 ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}gtk-3.0 ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/gtk-3.0 ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}Kvantum ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/Kvantum ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
+	echo -e ${BBlue}"   ==> moving ${BPurple}networkmanager-dmenu ${BBlue}config to the backup directory." ${RESET_COLOR}
+	mv ${CONFIG_DIR}/networkmanager-dmenu ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}Nitrogen ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/nitrogen ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
+
     echo -e ${BBlue}"   ==> moving ${BPurple}qt5ct ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/qt5ct ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-    echo -e ${BBlue}"   ==> moving ${BPurple}Ranger ${BBlue}config to the backup directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> moving ${BPurple}Ranger ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/ranger ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-    echo -e ${BBlue}"   ==> moving ${BPurple}rofi ${BBlue}config to the backup directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> moving ${BPurple}rofi ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/rofi ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-    echo -e ${BBlue}"   ==> moving ${BPurple}Thunar ${BBlue}config to the backup directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> moving ${BPurple}Thunar ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/Thunar ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-    echo -e ${BBlue}"   ==> moving ${BPurple}xfce4 ${BBlue}config to the backup directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> moving ${BPurple}xfce4 ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/xfce4 ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-    echo -e ${BBlue}"   ==> moving ${BPurple}mimeapps.list ${BBlue}config to the backup directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> moving ${BPurple}mimeapps.list ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${CONFIG_DIR}/mimeapps.list ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}    
-    echo -e ${BBlue}"   ==> Granting permissions to the ${BPurple}${USER} ${BBlue}user." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> Granting permissions to the ${BPurple}${USER} ${BBlue}user." ${RESET_COLOR}
 
 	chown -R ${USER}:${GROUB} ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
 	
@@ -99,29 +126,44 @@ INSTALL (){
 
 	echo -e ${BBlue}"   ==> copying ${BPurple}Alacritty ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/alacritty ${CONFIG_DIR}
+
     echo -e ${BBlue}"   ==> copying ${BPurple}geany ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/geany ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}cava ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}cava ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/cava ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}gtk-2.0 ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}gtk-2.0 ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/gtk-2.0 ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}gtk-3.0 ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}gtk-3.0 ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/gtk-3.0 ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}Kvantum ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}Kvantum ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/Kvantum ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}Nitrogen ${BBlue}config files to the config directory." ${RESET_COLOR}
+
+	echo -e ${BBlue}"   ==> copying ${BPurple}networkmanager-dmenu ${BBlue}config files to the config directory." ${RESET_COLOR}
+	cp -rf ${CONFIG_DIR_SKEL}/networkmanager-dmenu ${CONFIG_DIR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}Nitrogen ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/nitrogen ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}qt5ct ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}qt5ct ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/qt5ct ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}Ranger ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}Ranger ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/ranger ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}rofi ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}rofi ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/rofi ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}Thunar ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}Thunar ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/Thunar ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}xfce4 ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}xfce4 ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp -rf ${CONFIG_DIR_SKEL}/xfce4 ${CONFIG_DIR}
-    echo -e ${BBlue}"   ==> copying ${BPurple}mimeapps.list ${BBlue}config files to the config directory." ${RESET_COLOR}
+    
+	echo -e ${BBlue}"   ==> copying ${BPurple}mimeapps.list ${BBlue}config files to the config directory." ${RESET_COLOR}
 	cp ${CONFIG_DIR_SKEL}/mimeapps.list ${CONFIG_DIR}
     
     echo -e ${BBlue}"   ==> Granting permissions to the ${BPurple}${USER} ${BBlue}user." ${RESET_COLOR}
@@ -131,6 +173,7 @@ INSTALL (){
     chown -R ${USER}:${GROUB} ${CONFIG_DIR}/gtk-2.0
     chown -R ${USER}:${GROUB} ${CONFIG_DIR}/gtk-3.0
     chown -R ${USER}:${GROUB} ${CONFIG_DIR}/Kvantum
+	chown -R ${USER}:${GROUB} ${CONFIG_DIR}/networkmanager-dmenu
     chown -R ${USER}:${GROUB} ${CONFIG_DIR}/nitrogen
     chown -R ${USER}:${GROUB} ${CONFIG_DIR}/qt5ct
     chown -R ${USER}:${GROUB} ${CONFIG_DIR}/ranger
@@ -140,7 +183,7 @@ INSTALL (){
     chown -R ${USER}:${GROUB} ${CONFIG_DIR}/mimeapps.list
 
 	
-	if [[ -d "${CONFIG_DIR}/alacritty" && -d "${CONFIG_DIR}/cava" && -d "${CONFIG_DIR}/geany" && -d "${CONFIG_DIR}/gtk-2.0" && -d "${CONFIG_DIR}/gtk-3.0" && -d "${CONFIG_DIR}/Kvantum" && -d "${CONFIG_DIR}/nitrogen" && -d "${CONFIG_DIR}/qt5ct" && -d "${CONFIG_DIR}/ranger" && -d "${CONFIG_DIR}/rofi" && -d "${CONFIG_DIR}/Thunar" && -d "${CONFIG_DIR}/xfce4" && -f "${CONFIG_DIR}/mimeapps.list" ]]; then
+	if [[ -d "${CONFIG_DIR}/alacritty" && -d "${CONFIG_DIR}/cava" && -d "${CONFIG_DIR}/geany" && -d "${CONFIG_DIR}/gtk-2.0" && -d "${CONFIG_DIR}/gtk-3.0" && -d "${CONFIG_DIR}/Kvantum" && -d "${CONFIG_DIR}/networkmanager-dmenu" && -d "${CONFIG_DIR}/nitrogen" && -d "${CONFIG_DIR}/qt5ct" && -d "${CONFIG_DIR}/ranger" && -d "${CONFIG_DIR}/rofi" && -d "${CONFIG_DIR}/Thunar" && -d "${CONFIG_DIR}/xfce4" && -f "${CONFIG_DIR}/mimeapps.list" ]]; then
 
 		echo -e ${BGreen}"[✔] Configuration files installed successfully!\n" ${RESET_COLOR}
 
@@ -161,7 +204,7 @@ RUN_MAIN (){
 
 	else
 
-		if [[ ! -d "${CONFIG_DIR}/alacritty" && ! -d "${CONFIG_DIR}/cava" && ! -d "${CONFIG_DIR}/geany" && ! -d "${CONFIG_DIR}/gtk-2.0" && ! -d "${CONFIG_DIR}/gtk-3.0" && ! -d "${CONFIG_DIR}/Kvantum" && ! -d "${CONFIG_DIR}/nitrogen" && ! -d "${CONFIG_DIR}/qt5ct" && ! -d "${CONFIG_DIR}/ranger" && ! -d "${CONFIG_DIR}/rofi" && ! -d "${CONFIG_DIR}/Thunar" && ! -d "${CONFIG_DIR}/xfce4" && ! -f "${CONFIG_DIR}/mimeapps.list" ]]
+		if [[ ! -d "${CONFIG_DIR}/alacritty" && ! -d "${CONFIG_DIR}/cava" && ! -d "${CONFIG_DIR}/geany" && ! -d "${CONFIG_DIR}/gtk-2.0" && ! -d "${CONFIG_DIR}/gtk-3.0" && ! -d "${CONFIG_DIR}/Kvantum" && ! -d "${CONFIG_DIR}/networkmanager-dmenu" && ! -d "${CONFIG_DIR}/nitrogen" && ! -d "${CONFIG_DIR}/qt5ct" && ! -d "${CONFIG_DIR}/ranger" && ! -d "${CONFIG_DIR}/rofi" && ! -d "${CONFIG_DIR}/Thunar" && ! -d "${CONFIG_DIR}/xfce4" && ! -f "${CONFIG_DIR}/mimeapps.list" ]]
 			then
 				
 				INSTALL
