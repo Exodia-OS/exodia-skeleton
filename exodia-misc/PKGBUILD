@@ -4,7 +4,7 @@
 
 pkgname=exodia-misc
 pkgver=1.0
-pkgrel=4
+pkgrel=5
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-skeleton"
@@ -26,9 +26,7 @@ package() {
 
 	
 	# Copy misc dirs #
-	cp -r ${srcdir}/misc/.mpd  		    ${SKEL_DIR}
 	cp -r ${srcdir}/misc/.mplayer 		${SKEL_DIR}
-	cp -r ${srcdir}/misc/.ncmpcpp 		${SKEL_DIR}
 	cp -r ${srcdir}/misc/.Xresources.d 	${SKEL_DIR}
 	
 	# Copy misc files #
@@ -39,8 +37,5 @@ package() {
 	install -Dm 644 ${srcdir}/misc/.p10k.zsh     ${SKEL_DIR}/.p10k.zsh
 	install -Dm 644 ${srcdir}/misc/.Xresources   ${SKEL_DIR}/.Xresources
 	install -Dm 644 ${srcdir}/misc/.zshrc        ${SKEL_DIR}/.zshrc
-
-	# Make scripts executable #
-	chmod +x ${SKEL_DIR}/.ncmpcpp/scripts/{album-art,ncmpcpp-art,notify}
 
 }

@@ -1,0 +1,30 @@
+#
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+#
+
+pkgname=exodia-music-config
+pkgver=1.0
+pkgrel=1
+pkgdesc="config files of Music For Exodia OS"
+arch=('any')
+url="https://github.com/Exodia-OS/exodia-music-config"
+license=('GPL3')
+groups=('exodia-skeleton')
+
+prepare() {
+
+	cp -af ../configs/. ${srcdir}
+
+}
+
+package() {
+
+	local CONFIG_DIR=${pkgdir}/etc/skel
+
+	mkdir -p ${CONFIG_DIR}
+
+	cp -r ${srcdir}/.mpd      "$CONFIG_DIR"
+	cp -r ${srcdir}/.ncmpcpp  "$CONFIG_DIR"
+	chmod +x ${CONFIG_DIR}/.ncmpcpp/scripts/*
+
+}

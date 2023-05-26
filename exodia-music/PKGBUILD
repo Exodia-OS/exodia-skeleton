@@ -4,9 +4,10 @@
 
 pkgname=exodia-music
 pkgver=1.0
-pkgrel=4
+pkgrel=5
 pkgdesc="Music For Exodia OS"
 arch=('any')
+depends=('exodia-music-config')
 url="https://github.com/Exodia-OS/exodia-music"
 license=('GPL3')
 groups=('exodia-skeleton')
@@ -19,8 +20,8 @@ prepare() {
 
 package() {
 
-	local music_dir=${pkgdir}/etc/skel/Music
-	mkdir -p ${music_dir}
-	cp -r ${srcdir}/* ${music_dir}
+	local MUSIC_DIR=${pkgdir}/etc/skel/Music
+	mkdir -p ${MUSIC_DIR}
+	cp -r ${srcdir}/* ${MUSIC_DIR}
 
 }
