@@ -28,6 +28,7 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-syntax-highlighting
+  web-search
   )
 
 source $ZSH/oh-my-zsh.sh
@@ -57,7 +58,6 @@ alias zshconfig="geany ~/.zshrc"
 alias ohmyzsh="thunar ~/.oh-my-zsh"
 
 # ls #
-
 alias ls='lsd'
 alias l='lsd -lh'
 alias ll='lsd -lah'
@@ -67,7 +67,6 @@ alias lr='lsd -R'
 alias lg='lsd -l --group-directories-first'
 
 # git #
-
 alias gcl='git clone --depth 1'
 alias gi='git init'
 alias ga='git add'
@@ -76,7 +75,6 @@ alias gp='git push origin master'
 alias cb='git checkout'
 
 # Pacman #
-
 alias sync="sudo pacman -Syyy"
 alias install="sudo pacman -S"
 alias ipkg="sudo pacman -U"
@@ -90,8 +88,20 @@ alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias remove="sudo pacman -R"
 alias autoremove="sudo pacman -Rns"
 
-# Other #
+# yay - AUR Helper #
+alias Ysync="yay -Syyy"
+alias Yinstall="yay -S"
+alias Yipkg="yay -U"
+alias Yupdate="yay -Syyu"
+alias Ysearch="yay -Ss"
+alias Ysearch-local="yay -Qs"
+alias Ypkg-info="yay -Qi"
+alias Ylocal-install="yay -U"
+alias Yclr-cache="yay -Scc"
+alias Yremove="yay -R"
+alias Yautoremove="yay -Rns"
 
+# Other #
 alias M="ncmpcpp"
 alias MA="cd ~/.ncmpcpp/scripts/ && ./ncmpcpp-art"
 alias youtube="ytfzf -t"
@@ -136,13 +146,14 @@ echo -e ${Purple} "┏━━━━━━━━━━━━━━━━━━━�
 echo -e ${Purple} "┃                                                                                ┃ ${Cyan}  ${BBlue}Exodia Fetch ${Purple}┃  ${BGreen}  ${BYellow}  ${BRed}  ${Purple}┃"${RESET_COLOR}
 echo -e ${Purple} "┃  ██╗ ██╗     ███████╗██╗  ██╗ ██████╗ ██████╗ ██╗ █████╗      ██████╗ ███████╗ ┣━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━┫"${RESET_COLOR}
 echo -e ${Purple} "┃ ████████╗    ██╔════╝╚██╗██╔╝██╔═══██╗██╔══██╗██║██╔══██╗    ██╔═══██╗██╔════╝ ┃                             ┃"${RESET_COLOR}
-echo -e ${Purple} "┃ ╚██╔═██╔╝    █████╗   ╚███╔╝ ██║   ██║██║  ██║██║███████║    ██║   ██║███████╗ ┃                             ┃"${RESET_COLOR}
+echo -e ${Purple} "┃ ╚██╔═██╔╝    █████╗   ╚███╔╝ ██║   ██║██║  ██║██║███████║    ██║   ██║███████╗ ┃ ${Cyan}  ${BIGreen}@author MAHMOUD MOHAMED  ${Purple}┃"${RESET_COLOR}
 echo -e ${Purple} "┃ ████████╗    ██╔══╝   ██╔██╗ ██║   ██║██║  ██║██║██╔══██║    ██║   ██║╚════██║ ┃ ${Cyan}  ${Blue}Developed by : ${BIGreen}00xWolf   ${Purple}┃"${RESET_COLOR}
 echo -e ${Purple} "┃ ╚██╔═██╔╝    ███████╗██╔╝ ██╗╚██████╔╝██████╔╝██║██║  ██║    ╚██████╔╝███████║ ┃ ${Cyan}  ${Blue}GitHub : ${BIGreen}@mmsaeed509     ${Purple}┃"${RESET_COLOR}
 echo -e ${Purple} "┃  ╚═╝ ╚═╝     ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═╝     ╚═════╝ ╚══════╝ ┃ ${Cyan}﫥 ${BIGreen}Cyb3rTh1eveZ Team        ${Purple}┃"${RESET_COLOR}
 echo -e ${Purple} "┃                                                                                ┃                             ┃"${RESET_COLOR}
 echo -e ${Purple} "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"${RESET_COLOR}
-echo -e ""
+
+echo -e "\n Welcome back [   Mr.${USER} ] \n"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh. #
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
