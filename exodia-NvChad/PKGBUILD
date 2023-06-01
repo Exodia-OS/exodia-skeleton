@@ -6,8 +6,8 @@
 
 pkgname=exodia-NvChad
 pkgver=2.0
-pkgrel=3
-pkgdesc="NvChad : the ultimate neovim configuration"
+pkgrel=4
+pkgdesc="NvChad : Blazing fast Neovim framework providing solid defaults and a beautiful UI, enhancing your neovim experience."
 arch=('any')
 url='https://github.com/NvChad/NvChad'
 license=('GPL')
