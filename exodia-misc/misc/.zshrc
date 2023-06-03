@@ -153,7 +153,7 @@ echo -e ${Purple} "┃  ╚═╝ ╚═╝     ╚══════╝╚═�
 echo -e ${Purple} "┃                                                                                ┃                             ┃"${RESET_COLOR}
 echo -e ${Purple} "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"${RESET_COLOR}
 
-echo -e "\n Welcome back [   Mr.${USER} ] \n"
+echo -e "\n Welcome back ${BIGreen}Mr.${USER} ${RESET_COLOR}\n"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh. #
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
