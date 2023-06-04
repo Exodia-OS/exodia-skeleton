@@ -30,6 +30,7 @@ package() {
 	cp -r ${srcdir}/misc/.Xresources.d 	${SKEL_DIR}
 	
 	# Copy misc files #
+	install -Dm 644 ${srcdir}/misc/.bashrc 	     ${SKEL_DIR}/.bashrc
 	install -Dm 644 ${srcdir}/misc/.dmrc 	     ${SKEL_DIR}/.dmrc
 	install -Dm 644 ${srcdir}/misc/.face 		 ${SKEL_DIR}/.face
 	install -Dm 644 ${srcdir}/misc/.gtkrc-2.0 	 ${SKEL_DIR}/.gtkrc-2.0
