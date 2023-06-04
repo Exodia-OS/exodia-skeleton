@@ -60,9 +60,6 @@ BACKUP (){
     echo -e ${BBlue}"   ==> moving ${BPurple}.Xresources.d ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.Xresources.d ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
 
-	echo -e ${BBlue}"   ==> moving ${BPurple}.bashrc ${BBlue}config to the backup directory." ${RESET_COLOR}
-	mv ${HOME_DIR}/.bashrc ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
-
     echo -e ${BBlue}"   ==> moving ${BPurple}.dmrc ${BBlue}config to the backup directory." ${RESET_COLOR}
 	mv ${HOME_DIR}/.dmrc ${BACKUP_DIR}/${FILES_NAME}-${BACKUP_NAME}-${BACKUP_RANDOM}
 
@@ -109,9 +106,6 @@ INSTALL (){
 
     echo -e ${BBlue}"   ==> copying ${BPurple}.Xresources.d ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp -rf ${HOME_DIR_SKEL}/.Xresources.d ${HOME_DIR}
-	
-	echo -e ${BBlue}"   ==> copying ${BPurple}.bashrc ${BBlue}config files to the home directory." ${RESET_COLOR}
-	cp ${HOME_DIR_SKEL}/.bashrc ${HOME_DIR}
 
     echo -e ${BBlue}"   ==> copying ${BPurple}.dmrc ${BBlue}config files to the home directory." ${RESET_COLOR}
 	cp ${HOME_DIR_SKEL}/.dmrc ${HOME_DIR}
@@ -138,7 +132,6 @@ INSTALL (){
     echo -e ${BBlue}"   ==> Granting permissions to the ${BPurple}${USER} ${BBlue}user." ${RESET_COLOR}
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.mplayer
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.Xresources.d
-	chown -R ${USER}:${GROUB} ${HOME_DIR}/.bashrc
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.dmrc
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.face
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.gtkrc-2.0
@@ -148,7 +141,7 @@ INSTALL (){
     chown -R ${USER}:${GROUB} ${HOME_DIR}/.zshrc
 
 	
-	if [[ -d "${HOME_DIR}/.mplayer" && -d "${HOME_DIR}/.Xresources.d" && -f "${HOME_DIR}/.bashrc" && -f "${HOME_DIR}/.dmrc" && -f "${HOME_DIR}/.face" && -f "${HOME_DIR}/.fehbg" && -f "${HOME_DIR}/.gtkrc-2.0" && -f "${HOME_DIR}/.hushlogin" && -f "${HOME_DIR}/.p10k.zsh" && -f "${HOME_DIR}/.Xresources" && -f "${HOME_DIR}/.xsettingsd" && -f "${HOME_DIR}/.zshrc" ]]; then
+	if [[ -d "${HOME_DIR}/.mplayer" && -d "${HOME_DIR}/.Xresources.d" && -f "${HOME_DIR}/.dmrc" && -f "${HOME_DIR}/.face" && -f "${HOME_DIR}/.fehbg" && -f "${HOME_DIR}/.gtkrc-2.0" && -f "${HOME_DIR}/.hushlogin" && -f "${HOME_DIR}/.p10k.zsh" && -f "${HOME_DIR}/.Xresources" && -f "${HOME_DIR}/.xsettingsd" && -f "${HOME_DIR}/.zshrc" ]]; then
 
 		echo -e ${BGreen}"[✔] Configuration files installed successfully!\n" ${RESET_COLOR}
 
@@ -169,7 +162,7 @@ RUN_MAIN (){
 
 	else
 
-		if [[ ! -d "${HOME_DIR}/.mplayer" && ! -d "${HOME_DIR}/.Xresources.d" && ! -f "${HOME_DIR}/.bashrc" && ! -f "${HOME_DIR}/.dmrc" && ! -f "${HOME_DIR}/.face" && ! -f "${HOME_DIR}/.fehbg" && ! -f "${HOME_DIR}/.gtkrc-2.0" && ! -f "${HOME_DIR}/.hushlogin" && ! -f "${HOME_DIR}/.p10k.zsh" && ! -f "${HOME_DIR}/.Xresources" && ! -f "${HOME_DIR}/.xsettingsd" && ! -f "${HOME_DIR}/.zshrc" ]]
+		if [[ ! -d "${HOME_DIR}/.mplayer" && ! -d "${HOME_DIR}/.Xresources.d" && ! -f "${HOME_DIR}/.dmrc" && ! -f "${HOME_DIR}/.face" && ! -f "${HOME_DIR}/.fehbg" && ! -f "${HOME_DIR}/.gtkrc-2.0" && ! -f "${HOME_DIR}/.hushlogin" && ! -f "${HOME_DIR}/.p10k.zsh" && ! -f "${HOME_DIR}/.Xresources" && ! -f "${HOME_DIR}/.xsettingsd" && ! -f "${HOME_DIR}/.zshrc" ]]
 			then
 				
 				INSTALL
@@ -185,23 +178,10 @@ RUN_MAIN (){
 
 }
 
-pre_install() {
-
-	echo -e ${Green}"\n[*] Removing OLD ${BPurple}.bashrc from ${BBlue}${HOME_DIR_SKEL}" ${RESET_COLOR}
-	
-	rm ${HOME_DIR_SKEL}/.bashrc
-
-}
 
 post_install() {
 	
 	RUN_MAIN
-
-}
-
-pre_upgrade() {
-
-	pre_install
 
 }
 
