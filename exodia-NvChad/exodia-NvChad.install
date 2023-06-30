@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## ------------ COLORS ------------ ##
 
 # Reset #
@@ -132,9 +134,14 @@ post_upgrade() {
 
 post_remove() {
 		
-	echo -e ${BRed} "\n[*] Config files for ${BPurple}${PKG_NAME}${BRed} are still available in : " ${RESET_COLOR}
-	echo -e ${BRed} "   ==> ${BCyan}${CONFIG_DIR}/${FILES_NAME} ${BRed} directory." ${RESET_COLOR}
-	echo -e ${BRed} "   ==> ${BCyan}${PLUGINS_DIR}/${FILES_NAME} ${BRed} directory." ${RESET_COLOR}
-	echo -e ${BRed} "[*] If you want to remove them, Do it manually.\n " ${RESET_COLOR}
+	echo -e ${BRed} "\n[*] Removing config files for ${BPurple}${PKG_NAME}${BRed} ..." ${RESET_COLOR}
+	
+	echo -e ${BBlue} "   ==> Removing configs from ${BCyan}${CONFIG_DIR}/${FILES_NAME} ${BRed} directory." ${RESET_COLOR}
+	rm ${CONFIG_DIR}/${FILES_NAME}
+
+	echo -e ${BBlue} "   ==> Removing plugins from ${BCyan}${PLUGINS_DIR}/${FILES_NAME} ${BRed} directory." ${RESET_COLOR}
+	rm ${PLUGINS_DIR}/${FILES_NAME}
+
+	echo -e ${BGreen} "[✔] D O N E!\n " ${RESET_COLOR}
 
 }
