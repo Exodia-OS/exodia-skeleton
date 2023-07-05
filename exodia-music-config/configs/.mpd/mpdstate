@@ -1,9 +1,9 @@
 sw_volume: 100
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: play
-current: 9
-time: 102.493000
+state: pause
+current: 8
+time: 66.541000
 random: 0
 repeat: 1
 single: 1
@@ -19,7 +19,10 @@ playlist_begin
 4:Niko Pandetta- Pistole Nella Fendi.mp3
 5:Solo - River.mp3
 6:Stern des Sudens _ FC Bayern.mp3
-7:Tamiga 2Bad In Havana.mp3
-8:Unstoppable - Sia.mp3
-9:warriyo-mortals-RGjIYW6EBO.mp3
+7:SUPER SAKO Ft   HAYKO   MI GNA DJ Pantelis.mp3
+8:Tamiga  2Bad  I Need You.mp3
+9:Tamiga 2Bad In Havana.mp3
+10:Unstoppable - Sia.mp3
+11:DMNDS  Fallen Roses   Calabria  Strange Fruits Release.mp3
+12:warriyo-mortals-RGjIYW6EBO.mp3
 playlist_end

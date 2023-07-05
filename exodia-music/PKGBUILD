@@ -4,7 +4,7 @@
 
 pkgname=exodia-music
 pkgver=1.0
-pkgrel=5
+pkgrel=6
 pkgdesc="Music For Exodia OS"
 arch=('any')
 depends=('exodia-music-config')

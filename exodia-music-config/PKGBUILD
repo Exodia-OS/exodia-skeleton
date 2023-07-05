@@ -4,7 +4,7 @@
 
 pkgname=exodia-music-config
 pkgver=1.0
-pkgrel=1
+pkgrel=2
 pkgdesc="config files of Music For Exodia OS"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-music-config"
