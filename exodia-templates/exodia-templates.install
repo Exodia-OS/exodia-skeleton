@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ## ------------ COLORS ------------ ##
 
 # Reset #
@@ -80,7 +82,6 @@ RUN_MAIN (){
 
 	else
 	
-		BACKUP
 		INSTALL
 
 	fi
