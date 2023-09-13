@@ -86,7 +86,7 @@ alias gi='git init'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push origin master'
-alias cb='git checkout'
+alias cb='git checkout -f'
 
 # Pacman #
 alias sync="sudo pacman -Syyy"
@@ -96,7 +96,6 @@ alias update="sudo pacman -Syyu"
 alias search="sudo pacman -Ss"
 alias search-local="sudo pacman -Qs"
 alias pkg-info="sudo pacman -Qi"
-alias local-install="sudo pacman -U"
 alias clr-cache="sudo pacman -Scc"
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias remove="sudo pacman -R"
@@ -120,7 +119,8 @@ alias M="ncmpcpp"
 alias MA="cd ~/.ncmpcpp/scripts/ && ./ncmpcpp-art"
 alias youtube="ytfzf -t"
 alias eDEX-UI="eDEX-UI-Linux-x86_64.AppImage"
-
+alias t="tmux"
+alias UL="setxkbmap -layout us,ara ; setxkbmap -option 'grp:alt_shift_toggle'"
 
 ## ------------ COLORS ------------ ##
 
@@ -158,11 +158,11 @@ On_IBlue='\033[0;104m' On_IPurple='\033[0;105m' On_ICyan='\033[0;106m' On_IWhite
 # load on startup #
 
 echo -e "
-    _/_/_/_/                            _/  _/                  _/_/      _/_/_/   
-   _/        _/    _/    _/_/      _/_/_/        _/_/_/      _/    _/  _/          
-  _/_/_/      _/_/    _/    _/  _/    _/  _/  _/    _/      _/    _/    _/_/       
- _/        _/    _/  _/    _/  _/    _/  _/  _/    _/      _/    _/        _/      
-_/_/_/_/  _/    _/    _/_/      _/_/_/  _/    _/_/_/        _/_/    _/_/_/                                                                                   
+    _/_/_/_/                               _/   _/                    _/_/       _/_/_/   
+   _/         _/    _/     _/_/       _/_/_/          _/_/_/       _/    _/   _/          
+  _/_/_/       _/_/     _/    _/   _/    _/   _/   _/    _/       _/    _/     _/_/       
+ _/         _/    _/   _/    _/   _/    _/   _/   _/    _/       _/    _/         _/      
+_/_/_/_/   _/    _/     _/_/       _/_/_/   _/     _/_/_/         _/_/     _/_/_/                                                                                   
 "
 # echo -e ${Purple} "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓"
 # echo -e ${Purple} "┃                                                                                ┃ ${Cyan}  ${BBlue}Exodia Fetch ${Purple}┃  ${BGreen}  ${BYellow}  ${BRed}  ${Purple}┃"${RESET_COLOR}
@@ -181,4 +181,4 @@ _/_/_/_/  _/    _/    _/_/      _/_/_/  _/    _/_/_/        _/_/    _/_/_/
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # change sudo prompt #
-export SUDO_PROMPT="[] Enter sudo Password, Mr.${USER}: "
+export sudo_PROMPT="[] Enter sudo Password, Mr.${USER}: "
