@@ -35,7 +35,7 @@ FILES_NAME='Templates'
 pre_install() {
 
 	echo -e ${BGreen}"[*] Removing old Templates files \n" ${Color_Off}
-	rm -rf ${SKEL_DIR}/${FILES_NAME}
+	rm -rf ${HOME_DIR}/${FILES_NAME}
 }
 
 ## ------------ INSTALL CONFIG FILES ------------ ##
