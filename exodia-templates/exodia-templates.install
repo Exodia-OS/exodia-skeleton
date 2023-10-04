@@ -34,7 +34,7 @@ FILES_NAME='Templates'
 
 pre_install() {
 
-	echo -e ${BGreen}"[*] Removing old Templates files \n" ${Color_Off}
+	echo -e ${BGreen}"\n[*] Removing old Templates files \n" ${Color_Off}
 	rm -rf ${HOME_DIR}/${FILES_NAME}
 }
 
@@ -63,11 +63,11 @@ INSTALL (){
 	
 	if [[ -d "${HOME_DIR}/${FILES_NAME}" ]]; then
 
-		echo -e ${BGreen}"[*] Configuration files installed successfully!\n" ${Color_Off}
+		echo -e ${BGreen}"    [✔] Configuration files installed successfully!\n" ${Color_Off}
 
 	else
 
-		echo -e ${BRed}"[*] Failed to install configuration files!\n" ${Color_Off}
+		echo -e ${BRed}"    [✘] Failed to install configuration files!\n" ${Color_Off}
 
 	fi
 
