@@ -63,11 +63,11 @@ INSTALL (){
 	
 	if [[ -d "${HOME_DIR}/${FILES_NAME}" ]]; then
 
-		echo -e ${BGreen}"    [✔] Configuration files installed successfully!\n" ${Color_Off}
+		echo -e ${BGreen}"\n    [✔] Configuration files installed successfully!\n" ${Color_Off}
 
 	else
 
-		echo -e ${BRed}"    [✘] Failed to install configuration files!\n" ${Color_Off}
+		echo -e ${BRed}"\n    [✘] Failed to install configuration files!\n" ${Color_Off}
 
 	fi
 
@@ -76,8 +76,10 @@ INSTALL (){
 # MAIN FUNCTION #
 RUN_MAIN (){
 
-	if [[ "${GROUB}" == 'liveuser' ]]; 
+	if [[ "${GROUB}" == 'liveuser' ]];
+		
 		then
+		
 			exit
 
 	else
