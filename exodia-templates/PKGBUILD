@@ -4,8 +4,8 @@
 
 pkgname=exodia-templates
 _pkgname=Templates
-pkgver=2.9
-pkgrel=10
+pkgver=3.0
+pkgrel=1
 pkgdesc="Templates Files For Exodia OS that helps you create coding files"
 arch=('any')
 url="https://github.com/Exodia-OS/exodia-skeleton"
