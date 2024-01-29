@@ -117,10 +117,6 @@ alias Yautoremove="yay -Rns"
 # Other #
 alias M="ncmpcpp"
 alias MA="cd ~/.ncmpcpp/scripts/ && ./ncmpcpp-art"
-alias youtube="ytfzf -t"
-alias eDEX-UI="eDEX-UI-Linux-x86_64.AppImage"
-alias t="tmux"
-alias UL="setxkbmap -layout us,ara ; setxkbmap -option 'grp:alt_shift_toggle'"
 
 ## ------------ COLORS ------------ ##
 
@@ -166,21 +162,20 @@ _/_/_/_/   _/    _/     _/_/       _/_/_/   _/     _/_/_/         _/_/     _/_/_
 
 I stand with Palestine   |  Free Palestine 
 "
-# echo -e ${Purple} "┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓"
-# echo -e ${Purple} "┃                                                                                ┃ ${Cyan}  ${BBlue}Exodia Fetch ${Purple}┃  ${BGreen}  ${BYellow}  ${BRed}  ${Purple}┃"${RESET_COLOR}
-# echo -e ${Purple} "┃  ██╗ ██╗     ███████╗██╗  ██╗ ██████╗ ██████╗ ██╗ █████╗      ██████╗ ███████╗ ┣━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━┫"${RESET_COLOR}
-# echo -e ${Purple} "┃ ████████╗    ██╔════╝╚██╗██╔╝██╔═══██╗██╔══██╗██║██╔══██╗    ██╔═══██╗██╔════╝ ┃                             ┃"${RESET_COLOR}
-# echo -e ${Purple} "┃ ╚██╔═██╔╝    █████╗   ╚███╔╝ ██║   ██║██║  ██║██║███████║    ██║   ██║███████╗ ┃ ${Cyan}  ${BIGreen}@author MAHMOUD MOHAMED  ${Purple}┃"${RESET_COLOR}
-# echo -e ${Purple} "┃ ████████╗    ██╔══╝   ██╔██╗ ██║   ██║██║  ██║██║██╔══██║    ██║   ██║╚════██║ ┃ ${Cyan}  ${Blue}Developed by : ${BIGreen}00xWolf   ${Purple}┃"${RESET_COLOR}
-# echo -e ${Purple} "┃ ╚██╔═██╔╝    ███████╗██╔╝ ██╗╚██████╔╝██████╔╝██║██║  ██║    ╚██████╔╝███████║ ┃ ${Cyan}  ${Blue}GitHub : ${BIGreen}@mmsaeed509     ${Purple}┃"${RESET_COLOR}
-# echo -e ${Purple} "┃  ╚═╝ ╚═╝     ╚══════╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝╚═╝  ╚═╝     ╚═════╝ ╚══════╝ ┃ ${Cyan}﫥 ${BIGreen}Cyb3rTh1eveZ Team        ${Purple}┃"${RESET_COLOR}
-# echo -e ${Purple} "┃                                                                                ┃                             ┃"${RESET_COLOR}
-# echo -e ${Purple} "┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┻━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛"${RESET_COLOR}
-
-# echo -e "Welcome back ${BIGreen}Mr.${USER} ${RESET_COLOR}\n"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh. #
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# load custom profile #
+if [[ -f ~/.custom-profile ]];
+    
+    then
+        
+        . ~/.custom-profile
+
+fi
+
+
 
 # change sudo prompt #
 export sudo_PROMPT="[] Enter sudo Password, Mr.${USER}: "
