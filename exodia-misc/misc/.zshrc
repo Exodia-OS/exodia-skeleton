@@ -89,7 +89,7 @@ alias gp='git push origin master'
 alias cb='git checkout -f'
 
 # Pacman #
-alias sync="sudo pacman -Syyy"
+alias p-sync="sudo pacman -Syyy"
 alias install="sudo pacman -S"
 alias ipkg="sudo pacman -U"
 alias update="sudo pacman -Syyu"
@@ -174,7 +174,6 @@ if [[ -f ~/.custom-profile ]];
         . ~/.custom-profile
 
 fi
-
 
 
 # change sudo prompt #
