@@ -3,7 +3,7 @@
 #
 
 pkgname=exodia-misc
-pkgver=1.5
+pkgver=1.6
 pkgrel=9
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
@@ -11,6 +11,7 @@ url="https://github.com/Exodia-OS/exodia-skeleton"
 license=('GPL3')
 groups=('exodia-skeleton')
 install=${pkgname}.install
+depends=('exodia-pip-venv')
 
 prepare() {
 
