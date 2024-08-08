@@ -21,6 +21,9 @@ export EDITOR=nvim
 # Path to your oh-my-zsh installation. #
 export ZSH=$HOME/.oh-my-zsh
 
+# load pip env#
+source /usr/local/share/pip/bin/activate
+
 # zsh theme #
 ZSH_THEME="powerlevel10k/powerlevel10k"
 

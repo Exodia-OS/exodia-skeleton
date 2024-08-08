@@ -1,0 +1,33 @@
+#
+# Maintainer: Mahmoud Mohamed (00xWolf) <mmsaeed509@gmail.com> , <https://github.com/mmsaeed509>
+#
+
+pkgname=exodia-pip-venv
+pkgver=1.0
+pkgrel=1
+pkgdesc="pip virtual environment for Exodia OS"
+url="https://github.com/Exodia-OS/exodia-packages"
+arch=('any')
+license=('GPL3')
+makedepends=()
+groups=('exodia-skeleton')
+depends=()
+conflicts=()
+provides=("${pkgname}")
+options=(!strip !emptydirs)
+
+prepare() {
+
+	cp -af ../pip ${srcdir}
+	
+}
+
+package() {
+
+	mkdir -p ${pkgdir}/usr/local/share
+
+	cp -r ${srcdir}/pip ${pkgdir}/usr/local/share
+
+}
+
+

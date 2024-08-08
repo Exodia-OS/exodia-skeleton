@@ -3,7 +3,7 @@
 #
 
 pkgname=exodia-misc
-pkgver=1.4
+pkgver=1.5
 pkgrel=9
 pkgdesc="Skeleton Files For Exodia OS"
 arch=('any')
