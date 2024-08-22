@@ -25,7 +25,31 @@ export ZSH=$HOME/.oh-my-zsh
 source /usr/local/share/pip/bin/activate
 
 # zsh theme #
-ZSH_THEME="powerlevel10k/powerlevel10k"
+# ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# ZSH_THEME=random
+# ZSH_THEME_RANDOM_CANDIDATES=( "agnoster" "crunch" "fino-time" "funky" "jonathan" "junkfood" )
+
+# Load Version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats "%b"
+ZSH_THEME_GIT_PROMPT_PREFIX=""
+ZSH_THEME_GIT_PROMPT_SUFFIX=""
+ZSH_THEME_GIT_PROMPT_DIRTY=" ✘"
+ZSH_THEME_GIT_PROMPT_CLEAN=" ✔"
+ZSH_THEME_GIT_PROMPT_ADDED=" ✚"
+ZSH_THEME_GIT_PROMPT_MODIFIED=" ✹"
+ZSH_THEME_GIT_PROMPT_DELETED=" ✖"
+ZSH_THEME_GIT_PROMPT_RENAMED=" ➜"
+ZSH_THEME_GIT_PROMPT_UNMERGED=" ═"
+ZSH_THEME_GIT_PROMPT_UNTRACKED=" ✭"
+setopt prompt_subst
+# PROMPT="%F{011}%~ %F{050}%n@%m%F{010}"$'\n'" ❯ %f"
+PROMPT="%F{011}%~ %F{050}  %n@%m%F{010} "$'\n'" ❯ %f"
+RPROMPT='%F{050}${vcs_info_msg_0_}`git_prompt_status`'
 
 # disable bi-weekly auto-update checks. #
 DISABLE_AUTO_UPDATE="true"
