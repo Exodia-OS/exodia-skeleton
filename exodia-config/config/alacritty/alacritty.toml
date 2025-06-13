@@ -1,5 +1,5 @@
-import = ["/home/o0xwolf/.config/alacritty/catppuccin-mocha.toml", "/home/o0xwolf/.config/alacritty/fonts.toml"]
-live_config_reload = true
+general.import = ["/home/o0xwolf/.config/alacritty/catppuccin-mocha.toml", "/home/o0xwolf/.config/alacritty/fonts.toml"]
+general.live_config_reload = true
 # "window.opacity" = 1.0
 
 [cursor]
